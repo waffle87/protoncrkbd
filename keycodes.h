@@ -6,6 +6,7 @@ enum layers {
     _RAISE,
     _ADJUST,
     _FUN,
+    _UNICODE
 };
 
 enum custom_keycodes {
@@ -24,6 +25,7 @@ enum custom_keycodes {
   CTLS,
   MAKE,
   CAD,
+  UNIG,
   UNIT,
   UNIT2,
   UNIT3,
