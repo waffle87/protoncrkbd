@@ -92,7 +92,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_FUN] = LAYOUT(
     //|----------------------------------------------------------|                |------------------------------------------------------|
-       SPD_TP,   COMP6,    COMPKB,   _______,  _______,  _______,                  _______, _______, _______, _______, _______, XXXXXXX,
+       XXXXXXX,  COMP6,    COMPKB,   _______,  _______,  _______,                  _______, _______, _______, _______, _______, XXXXXXX,
     //|--------+--------+--------+--------+--------+-------------|                |--------+--------+--------+--------+--------+---------|
        XXXXXXX,  _______,  _______,  _______,  _______,  _______,                  _______, _______, _______, _______, _______, XXXXXXX,
     //|--------+--------+--------+--------+--------+-------------|                |--------+--------+--------+--------+--------+---------|
@@ -246,13 +246,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         case SSH_PI:
           if (record->event.pressed) {
               SEND_STRING("ssh pi@applepi.local"SS_TAP(X_ENTER));
-          } else {
-          }
-          break;
-
-        case SPD_TP:
-          if (record->event.pressed) {
-              SEND_STRING("Looks like I'm typing a bit faster now. Now it's a good time to take a certification test.");
           } else {
           }
           break;
