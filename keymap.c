@@ -8,32 +8,7 @@
 enum unicodemap_names {
     SNEK,
     HAP,
-    SPK,
-    AAA,
-    BBB,
-    CCC,
-    DDD,
-    EEE,
-    FFF,
-    GGG,
-    HHH,
-    JJJ,
-    KKK,
-    LLL,
-    MMM,
-    NNN,
-    OOO,
-    PPP,
-    QQQ,
-    RRR,
-    SSS,
-    TTT,
-    UUU,
-    VVV,
-    WWW,
-    XXX,
-    YYY,
-    ZZZ
+    SPK
 };
 
 bool is_alt_tab_active = false;
@@ -100,18 +75,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+----------|
                                           _______, KC_TRNS, _______,    _______, KC_TRNS, _______
                                       //|---------------------------|  |---------------------------------------|
-  ),
-
-  [_UNICODE] = LAYOUT(
-  //|-----------------------------------------------------|                    |-----------------------------------------------------|
-     XXXXXXX, X(QQQ),  X(WWW), X(EEE), X(RRR), X(TTT),                            X(YYY), X(UUU), X(III),  X(OOO),  X(PPP),  _______,\
-  //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-     XXXXXXX, X(AAA), X(SSS), X(DDD), X(FFF), X(GGG),                             X(HHH), X(JJJ), X(KKK),  X(LLL),  _______, _______,  \
-  //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-     XXXXXXX, X(ZZZ), X(XXX), X(CCC), X(VVV), X(BBB),                             X(NNN), X(MMM), UNIG,    _______, _______, _______,\
-  //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                         TG(5), KC_TRNS, _______,    _______, KC_TRNS, _______ \
-                                      //|--------------------------|  |--------------------------|
   )
 };
 
@@ -119,32 +82,6 @@ const uint32_t PROGMEM unicode_map[] = {
     [SNEK] = 0x1F40D,
     [HAP] = 0xFF3E,
     [SPK] = 0x2728,
-    [AAA] = 0x1F1E6,
-    [BBB] = 0x1F1E7,
-    [CCC] = 0x1F1E8,
-    [CCC] = 0x,
-    [DDD] = 0x1F1E9,
-    [EEE] = 0x,
-    [FFF] = 0x,
-    [GGG] = 0x,
-    [HHH] = 0x,
-    [JJJ] = 0x,
-    [KKK] = 0x,
-    [LLL] = 0x,
-    [MMM] = 0x,
-    [NNN] = 0x,
-    [OOO] = 0x,
-    [PPP] = 0x,
-    [QQQ] = 0x1F1E7,
-    [RRR] = 0x,
-    [SSS] = 0x1F1F8,
-    [TTT] = 0x,
-    [UUU] = 0x,
-    [VVV] = 0x,
-    [WWW] = 0x,
-    [XXX] = 0x,
-    [YYY] = 0x,
-    [ZZZ] = 0x,
 };
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
@@ -232,13 +169,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         case UNIT4:
           if (record->event.pressed) {
             send_unicode_string("╰༼.◕ヮ◕.༽つ¤=[]—————");
-          } else {
-          }
-          break;
-
-        case UNIG:
-          if (record->event.pressed) {
-            SEND_STRING(":regional_indicator_i: :regional_indicator_s: :regional_indicator_n: :regional_indicator_t:  :regional_indicator_u: :regional_indicator_n: :regional_indicator_i: :regional_indicator_c: :regional_indicator_o: :regional_indicator_d: :regional_indicator_e:  :regional_indicator_g: :regional_indicator_r: :regional_indicator_e: :regional_indicator_a: :regional_indicator_t: ");
           } else {
           }
           break;
