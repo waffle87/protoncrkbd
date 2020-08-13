@@ -1,11 +1,11 @@
 #pragma once
 
 enum layers {
-    _QWERTY,
-    _LOWER,
-    _RAISE,
-    _ADJUST,
-    _FUN
+  _QWERTY,
+  _LOWER,
+  _RAISE,
+  _ADJUST,
+  _MAX,
 };
 
 enum custom_keycodes {
@@ -13,8 +13,7 @@ enum custom_keycodes {
   LOWER,
   RAISE,
   ADJUST,
-  FUN,
-  RGBRST,
+  MAX,
   CP_PSTE,
   SSH_PI,
   ALT_TAB,
@@ -22,28 +21,26 @@ enum custom_keycodes {
   COMP6,
   COMPKB,
   CTLS,
+  CTLZ,
   MAKE,
   CAD,
   UNIT,
   UNIT2,
   UNIT3,
-  UNIT4
+  UNIT4,
+  UNIT5,
+  UNIT6
 };
 
-#define SFT_EQ MT(MOD_LSFT, KC_EQL)
-#define SFT_QT MT(MOD_RSFT, KC_QUOT)
+#define LOWER MO(_LOWER)
+#define RAISE MO(_RAISE)
 
-#define SFT_A MT(MOD_LSFT, KC_A)
-#define CTL_Z MT(MOD_LCTL, KC_Z)
-
-#define SFT_SCLN MT(MOD_RSFT, KC_SCLN)
-#define CTL_SLSH MT(MOD_RCTL, KC_SLSH)
-
-#define LOW_SPC LT(_LOWER, KC_SPC)
-#define RAI_EQ LT(_RAISE, KC_EQL)
-#define RAI_ENT LT(_RAISE, KC_ENT)
-#define LOW_BSP LT(_LOWER, KC_BSPC)
-#define LOW_DEL LT(_LOWER, KC_DEL)
-#define ADJ_GRV LT(_ADJUST, KC_GRV)
-#define KC_ANGL LSFT(KC_COMM)
-#define KC_ANGR LSFT(KC_DOT)
+#define SFA SFT_T(KC_A)
+#define SFCLN RSFT_T(KC_SCLN)
+#define CTLZ CTL_T(KC_Z)
+#define CTLSLH RCTL_T(KC_SLSH)
+#define SFEXM MT(MOD_LSFT, KC_F23)
+#define SFPRN MT(MOD_RSFT, KC_F24)
+#define CTLESC CTL_T(KC_ESC)
+#define CTLNXT RCTL_T(KC_MNXT)
+#define GPSCR G(KC_PSCR)

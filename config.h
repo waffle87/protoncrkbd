@@ -1,18 +1,13 @@
 #pragma once
 
-#undef USE_I2C
-#undef SSD1306OLED
-
 #define MASTER_LEFT
-
-#define USE_SERIAL_PD2
 
 #define UNICODE_SELECTED_MODES UC_WINC, UC_MAC, UC_LNX
 
 #define UNICODE_CYCLE_PERSIST false
 
 #define AUTO_SHIFT_MODIFIERS
-#define AUTO_SHIFT_TIMEOUT 150
+#define AUTO_SHIFT_TIMEOUT 170
 #define NO_AUTO_SHIFT_SPECIAL
 #define NO_AUTO_SHIFT_NUMERIC
 
@@ -23,10 +18,10 @@
 #    undef LOCKING_RESYNC_ENABLE
 #endif
 
+#define OLED_FONT_H "keyboards/crkbd/keymaps/666/glcdfont.c"
+
 #define IGNORE_MOD_TAP_INTERRUPT
 #define PERMISSIVE_HOLD
-#define TAPPING_TERM 210
+#define TAPPING_TERM 200
 
 #define NO_ACTION_ONESHOT
-
-#define OLED_FONT_H "keyboards/crkbd/keymaps/sixcol/glcdfont.c"
