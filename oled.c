@@ -12,6 +12,11 @@ void render_qmk_logo(void) {
     oled_write_P(font_qmk_logo, false);
 };
 
+void render_kb_split(void) {
+    static const char PROGMEM font_kb_split[11] = {0xba, 0xbb, 0xbc, 0xbd, 0xbe, 0xda, 0xdb, 0xdc, 0xdd, 0xde, 0};
+    oled_write_P(font_kb_split, false);
+};
+
 void render_prompt(void) {
     bool blink = (timer_read() % 1000) < 500;
 
@@ -25,6 +30,19 @@ void render_prompt(void) {
         oled_write_ln_P(blink ? PSTR("> _ ") : PSTR(">     "), false);
     }
 };
+
+void render_status_secondary(void) {
+    oled_write_ln("", false);
+    oled_write_ln("", false);
+    oled_write_ln("", false);
+
+    render_kb_split();
+
+    oled_write_ln("", false);
+    oled_write_ln("", false);
+    oled_write_ln("", false);
+}
+
 
 void render_status_main(void) {
     oled_write_ln("", false);
@@ -55,7 +73,7 @@ void oled_task_user(void) {
   if (is_keyboard_master()) {
     render_status_main();
   } else {
-    oled_scroll_left();
+    render_status_secondary();
   }
 }
 
