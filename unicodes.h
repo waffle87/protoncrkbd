@@ -1,15 +1,17 @@
 #pragma once
 
 enum unicodemap_names {
-  SNEK,
-  SPK,
   STAR,
-  MUS
+  HAP,
+  KEEB,
+  SIDE,
+  UPAR
 };
 
  const uint32_t PROGMEM unicode_map[] = {
-  [SNEK] = 0x1F40D,
-  [SPK] = 0x2728,
   [STAR] = 0x2605,
-  [MUS] = 0x266C,
+  [HAP] = 0x1F604,
+  [KEEB] = 0x2328,
+  [SIDE] = 0x30C4,
+  [UPAR] = 0x16CF,
 };

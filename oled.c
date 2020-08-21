@@ -61,16 +61,14 @@ void render_status_main(void) {
 }
 
 void oled_task_user(void) {
-
-  char wpm_string[5];
-
-    oled_write_ln("WPM:", false);
-    snprintf(wpm_string,
-  sizeof(wpm_string), " %3d",
-  get_current_wpm());
-    oled_write(wpm_string, false);
-
   if (is_keyboard_master()) {
+    char wpm_string[5];
+
+      oled_write_ln("WPM:", false);
+      snprintf(wpm_string,
+    sizeof(wpm_string), " %3d",
+    get_current_wpm());
+      oled_write(wpm_string, false);
     render_status_main();
   } else {
     render_status_secondary();

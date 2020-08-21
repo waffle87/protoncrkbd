@@ -42,5 +42,6 @@ enum custom_keycodes {
 #define SFEXM MT(MOD_LSFT, KC_F23)
 #define SFPRN MT(MOD_RSFT, KC_F24)
 #define CTLESC CTL_T(KC_ESC)
+#define CTLTZ CTL_T(KC_Z)
 #define CTLNXT RCTL_T(KC_MNXT)
 #define GPSCR G(KC_PSCR)
