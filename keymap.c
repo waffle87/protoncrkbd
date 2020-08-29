@@ -7,6 +7,14 @@
 #   include "oled.c"
 #endif
 
+/*
+uiint32_t layer_state_set_user(uint32_t state) {
+    uint8_t layer = biton32(state);
+    xprintf("%d", layer);
+    return state;
+}
+*/
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_QWERTY] = LAYOUT(
     //|------------------------------------------------------------|        |-----------------------------------------------------------|

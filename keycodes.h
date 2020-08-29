@@ -37,7 +37,6 @@ enum custom_keycodes {
 
 #define SFA SFT_T(KC_A)
 #define SFCLN RSFT_T(KC_SCLN)
-#define CTLZ CTL_T(KC_Z)
 #define CTLSLH RCTL_T(KC_SLSH)
 #define SFEXM MT(MOD_LSFT, KC_F23)
 #define SFPRN MT(MOD_RSFT, KC_F24)
