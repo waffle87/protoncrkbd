@@ -5,7 +5,6 @@ enum layers {
   _LOWER,
   _RAISE,
   _ADJUST,
-  _MAX,
 };
 
 enum custom_keycodes {
@@ -13,15 +12,11 @@ enum custom_keycodes {
   LOWER,
   RAISE,
   ADJUST,
-  MAX,
   CP_PSTE,
   SSH_PI,
   ALT_TAB,
   SPD_TP,
-  COMP6,
-  COMPKB,
   CTLS,
-  CTLZ,
   MAKE,
   CAD,
   UNIT,
@@ -29,12 +24,17 @@ enum custom_keycodes {
   UNIT3,
   UNIT4,
   UNIT5,
-  UNIT6
+  UNIT6,
+  UNIT7,
+  GIT,
+  SETUP,
+  BDSE,
+  ZAD,
+  CONF
 };
 
 #define LOWER MO(_LOWER)
 #define RAISE MO(_RAISE)
-
 #define SFA SFT_T(KC_A)
 #define SFCLN RSFT_T(KC_SCLN)
 #define CTLSLH RCTL_T(KC_SLSH)

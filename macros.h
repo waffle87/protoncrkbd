@@ -101,21 +101,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
       case SSH_PI:
         if (record->event.pressed) {
-            SEND_STRING("ssh pi@applepi.local"SS_TAP(X_ENTER));
-        } else {
-        }
-        break;
-
-      case COMP6:
-        if (record->event.pressed) {
-            SEND_STRING("qmk compile -kb crkbd -km sixcol"SS_TAP(X_ENTER));
-        } else {
-        }
-        break;
-
-      case COMPKB:
-        if (record->event.pressed) {
-          SEND_STRING("qmk compile -kb handwired/kb -km default"SS_TAP(X_ENTER));
+            SEND_STRING("ssh pi@applepi.local"SS_TAP(X_ENTER) SS_DELAY(10000) "password_lol"SS_TAP(X_ENTER));
         } else {
         }
         break;
@@ -123,13 +109,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
       case CTLS:
         if (record->event.pressed) {
           SEND_STRING(SS_DOWN(X_LCTL)SS_TAP(X_S)SS_UP(X_LCTL));
-        } else {
-        }
-        break;
-
-      case CTLZ:
-        if (record->event.pressed) {
-          SEND_STRING(SS_DOWN(X_LCTL)SS_TAP(X_Z)SS_UP(X_LCTL));
         } else {
         }
         break;
@@ -149,7 +128,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
       case CAD:
         if (record->event.pressed) {
-          SEND_STRING(SS_LCTL(SS_LALT(SS_TAP(X_DELETE))));
+          SEND_STRING(SS_LCTL(SS_LALT(SS_TAP(X_BSPC))));
           return false;
         }
         break;
