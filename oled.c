@@ -24,6 +24,7 @@ oled_rotation_t oled_init_user(oled_rotation_t rotation) {
   }
 }
 
+
 void render_qmk_logo(void) {
     static const char PROGMEM font_qmk_logo[16] = {0x8a, 0x8b, 0x8c, 0x8d, 0x8e, 0xaa, 0xab, 0xac, 0xad, 0xae, 0xca, 0xcb, 0xcc, 0xcd, 0xce, 0};
     oled_write_P(font_qmk_logo, false);
@@ -44,7 +45,7 @@ void render_prompt(void) {
     }
 };
 
-static void render_anim(void) { //Bongo Cat animation: @jordi-7 on Github :)
+static void render_anim(void) {
 
     static const char PROGMEM idle[IDLE_FRAMES][ANIM_SIZE] = {
 
