@@ -21,7 +21,6 @@ enum custom_keycodes {
   UNIT2,
   GIT,
   SETUP,
-  ZAD,
   CONF
 };
 
