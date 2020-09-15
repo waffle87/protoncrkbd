@@ -7,14 +7,6 @@
 #   include "oled.c"
 #endif
 
-/*
-uiint32_t layer_state_set_user(uint32_t state) {
-    uint8_t layer = biton32(state);
-    xprintf("%d", layer);
-    return state;
-}
-*/
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_QWERTY] = LAYOUT(
     //|------------------------------------------------------------|        |-----------------------------------------------------------|
@@ -34,9 +26,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     //|-------------------------------------------------------------|            |------------------------------------------------------------------|
        _______, KC_1,    KC_2,    KC_3,     KC_4,     KC_5,                       KC_6,     KC_7,     KC_8,     KC_9,      KC_0,      _______,
     //|--------+--------+--------+--------+--------+----------------|            |--------+--------+--------+--------+--------+---------------------|
-       GIT,    SFEXM,    KC_AT,   KC_HASH,  KC_DLR,   KC_PERC,                    KC_CIRC,  KC_AMPR,  KC_ASTR,  KC_LPRN ,  SFPRN,     ZAD,
+       GIT,     SFEXM,    KC_AT,   KC_HASH,  KC_DLR,   KC_PERC,                    KC_CIRC,  KC_AMPR,  KC_ASTR,  KC_LPRN ,  SFPRN,    GIT,
     //|--------+--------+--------+--------+--------+----------------|            |--------+--------+--------+--------+--------+---------------------|
-       SETUP,  CTLESC,   KC_TAB,  KC_CAPS,  KC_TILD,  KC_GRV,                     KC_QUOT,  KC_PSCR,  KC_MPRV,  KC_MPLY,   CTLNXT,    CONF,
+       _______, CTLESC,   KC_TAB,  KC_CAPS,  KC_TILD,  KC_GRV,                     KC_QUOT,  KC_PSCR,  KC_MPRV,  KC_MPLY,   CTLNXT,   _______,
     //|--------+--------+--------+--------+--------+--------+------------|  |--------+--------+--------+--------+--------+--------+-----------------|
                                           KC_PGUP, KC_TRNS, KC_SPC,             KC_ENT, KC_TRNS, KC_PGDN
                                    //|----------------------------------|  |---------------------------------|
