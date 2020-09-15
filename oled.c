@@ -1,5 +1,7 @@
 #pragma once
 
+extern uint8_t is_master;
+
 #define IDLE_FRAMES 5
 #define IDLE_SPEED 30
 #define TAP_FRAMES 2
@@ -15,10 +17,13 @@ uint8_t current_tap_frame = 0;
 
 #ifdef OLED_DRIVER_ENABLE
 oled_rotation_t oled_init_user(oled_rotation_t rotation) {
-  if (is_keyboard_master())
+  if (is_master) {
     return OLED_ROTATION_270;
-  return rotation;
+  } else {
+    return OLED_ROTATION_180;
+  }
 }
+
 
 void render_qmk_logo(void) {
     static const char PROGMEM font_qmk_logo[16] = {0x8a, 0x8b, 0x8c, 0x8d, 0x8e, 0xaa, 0xab, 0xac, 0xad, 0xae, 0xca, 0xcb, 0xcc, 0xcd, 0xce, 0};
@@ -42,7 +47,6 @@ void render_prompt(void) {
 
 static void render_anim(void) {
 
-    // Idle animation
     static const char PROGMEM idle[IDLE_FRAMES][ANIM_SIZE] = {
 
         {
@@ -77,7 +81,6 @@ static void render_anim(void) {
 
     };
 
-    // Prep animation
     static const char PROGMEM prep[][ANIM_SIZE] = {
 
         {
@@ -88,7 +91,6 @@ static void render_anim(void) {
 
     };
 
-    // Typing animation
     static const char PROGMEM tap[TAP_FRAMES][ANIM_SIZE] = {
 
         {
@@ -160,9 +162,13 @@ void render_status_main(void) {
 }
 
 void oled_task_user(void) {
-  if (is_keyboard_master()) {
+#ifdef SPLIT_KEYBOARD
+  if (is_keyboard_master())
+#else
+  if (is_master)
+#endif
+   {
     char wpm_string[5];
-
       oled_write_ln("WPM:", false);
       snprintf(wpm_string,
     sizeof(wpm_string), " %3d",

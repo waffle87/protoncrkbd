@@ -71,37 +71,9 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         }
         break;
 
-      case UNIT3:
-        if (record->event.pressed) {
-          send_unicode_string("ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ");
-        } else {
-        }
-        break;
-
-      case UNIT4:
-        if (record->event.pressed) {
-          send_unicode_string("╰༼.◕ヮ◕.༽つ¤=[]—————");
-        } else {
-        }
-        break;
-
-      case UNIT5:
-        if (record->event.pressed) {
-          send_unicode_string("｡＾･ｪ･＾｡");
-        } else {
-        }
-        break;
-
-      case UNIT6:
-        if (record->event.pressed) {
-          send_unicode_string("へ‿(ツ)‿ㄏ");
-        } else {
-        }
-        break;
-
       case SSH_PI:
         if (record->event.pressed) {
-            SEND_STRING("ssh pi@applepi.local"SS_TAP(X_ENTER) SS_DELAY(10000) "password_lol"SS_TAP(X_ENTER));
+            SEND_STRING("ssh pi@applepi.local"SS_TAP(X_ENTER) SS_DELAY(10000) "Rasp91111"SS_TAP(X_ENTER));
         } else {
         }
         break;
@@ -113,6 +85,34 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         }
         break;
 
+        case GIT:
+          if (record->event.pressed) {
+            SEND_STRING("https://github.com/qmk/qmk_firmware/tree/master/keyboards"SS_TAP(X_ENTER));
+          } else {
+          }
+          break;
+
+        case SETUP:
+          if (record->event.pressed) {
+            SEND_STRING("https://beta.docs.qmk.fm/tutorial/newbs_getting_started"SS_TAP(X_ENTER));
+          } else {
+          }
+          break;
+
+        case ZAD:
+          if (record->event.pressed) {
+            SEND_STRING("https://beta.docs.qmk.fm/using-qmk/guides/driver_installation_zadig"SS_TAP(X_ENTER));
+          } else {
+          }
+          break;
+
+        case CONF:
+          if (record->event.pressed) {
+            SEND_STRING("https://config.qmk.fm/#/"SS_TAP(X_ENTER));
+          } else {
+          }
+          break;
+
       case ALT_TAB:
         if (record->event.pressed) {
           if (!is_alt_tab_active) {
@@ -123,13 +123,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
           register_code(KC_TAB);
         } else {
           unregister_code(KC_TAB);
-        }
-        break;
-
-      case CAD:
-        if (record->event.pressed) {
-          SEND_STRING(SS_LCTL(SS_LALT(SS_TAP(X_BSPC))));
-          return false;
         }
         break;
 

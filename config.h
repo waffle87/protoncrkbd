@@ -1,6 +1,6 @@
 #pragma once
 
-#define MASTER_LEFT
+#define EE_HANDS
 
 #define SSD1306OLED
 
@@ -8,8 +8,9 @@
 
 #ifdef RGBLIGHT_ENABLE
     #undef RGBLED_NUM
-    #define RGBLIGHT_ANIMATIONS
     #define RGBLED_NUM 27
+//    #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+//    #define RGBLIGHT_EFFECT_STATIC_GRADIENT
     #define RGBLIGHT_LIMIT_VAL 120
     #define RGBLIGHT_HUE_STEP 10
     #define RGBLIGHT_SAT_STEP 17
@@ -34,6 +35,14 @@
 #endif
 #ifdef LOCKING_RESYNC_ENABLE
 #    undef LOCKING_RESYNC_ENABLE
+#endif
+
+#ifndef NO_DEBUG
+#define NO_DEBUG
+#endif
+
+#if !defined(NO_PRINT) && !defined(CONSOLE_ENABLE)
+#define NO_PRINT
 #endif
 
 #define OLED_FONT_H "keyboards/crkbd/keymaps/666/glcdfont.c"
