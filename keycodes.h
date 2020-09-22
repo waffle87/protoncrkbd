@@ -19,9 +19,12 @@ enum custom_keycodes {
   MAKE,
   UNIT,
   UNIT2,
+  UNIT3,
   GIT,
   SETUP,
-  CONF
+  ZAD,
+  CONF,
+  CD1
 };
 
 #define LOWER MO(_LOWER)

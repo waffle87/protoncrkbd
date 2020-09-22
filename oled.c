@@ -45,7 +45,7 @@ void render_prompt(void) {
     }
 };
 
-static void render_anim(void) { //Bongo Cat Animation from @jordi-7 on Github [https://github.com/jordi-7/qmk_firmware/blob/master/keyboards/lily58/keymaps/jgr/keymap.c]
+static void render_anim(void) {
 
     static const char PROGMEM idle[IDLE_FRAMES][ANIM_SIZE] = {
 
