@@ -80,6 +80,13 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         }
         break;
 
+      case UNIT4:
+        if (record->event.pressed) {
+        send_unicode_string("(ᵔᴥᵔ)");
+        } else {
+        }
+        break;  
+
       case SSH_PI:
         if (record->event.pressed) {
             SEND_STRING("ssh pi@applepi.local"SS_TAP(X_ENTER) SS_DELAY(10000) "Rasp91111"SS_TAP(X_ENTER));
