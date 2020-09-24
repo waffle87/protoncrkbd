@@ -89,7 +89,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
       case SSH_PI:
         if (record->event.pressed) {
-            SEND_STRING("ssh pi@applepi.local"SS_TAP(X_ENTER) SS_DELAY(10000) "Rasp91111"SS_TAP(X_ENTER));
+            SEND_STRING("ssh pi@applepi.local"SS_TAP(X_ENTER) SS_DELAY(10000) "password_lol"SS_TAP(X_ENTER));
         } else {
         }
         break;
@@ -108,20 +108,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
           }
           break;
 
-        case SETUP:
-          if (record->event.pressed) {
-            SEND_STRING("https://beta.docs.qmk.fm/tutorial/newbs_getting_started"SS_TAP(X_ENTER));
-          } else {
-          }
-          break;
-
-        case ZAD:
-          if (record->event.pressed) {
-            SEND_STRING("https://beta.docs.qmk.fm/using-qmk/guides/driver_installation_zadig");
-          } else {
-          }
-          break;
-
         case CONF:
           if (record->event.pressed) {
             SEND_STRING("https://config.qmk.fm/#/"SS_TAP(X_ENTER));
@@ -131,7 +117,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
         case CD1:
           if (record->event.pressed) {
-            SEND_STRING("cd /c/Users/apple/qmk_firmware"SS_TAP(X_ENTER));
+            SEND_STRING("cd my_qmk_lol"SS_TAP(X_ENTER));
           } else {
           }
           break;
