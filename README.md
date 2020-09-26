@@ -14,3 +14,6 @@ The fix to this error is opening up the post_config.h file in `crkbd -> rev1 -> 
 #    define USE_I2C
 #endif
 ```
+
+**This firmware is very large. Literally 0 bytes free. Therefore this may not compile depending on your system and software versions** 
+![0 bytes remaining](https://raw.githubusercontent.com/toastedmangoes/6col/master/images/0-bytes.png)
