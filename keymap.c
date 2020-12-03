@@ -37,19 +37,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     //|--------+--------+--------+--------+--------+----------------|            |--------+--------+--------+--------+--------+---------------------|
        ZAD,    CTLESC,  KC_TAB,  KC_CAPS,  KC_TILD,  KC_GRV,                      KC_LEFT,  KC_UP,    KC_DOWN,  KC_RGHT, KC_RCTL,   KC_MPRV,
     //|--------+--------+--------+--------+--------+--------+------------|  |--------+--------+--------+--------+--------+--------+-----------------|
-                                          KC_PGUP, KC_TRNS, KC_SPC,          KC_BSPC,   KC_MS_U,   KC_VOLU
+                                          KC_LGUI, KC_TRNS, KC_SPC,          KC_VOLU,   KC_MS_U,   KC_PGUP
                                    //|----------------------------------|  |---------------------------------|
   ),
 
   [_RAISE] = LAYOUT(
     //|-----------------------------------------------------|                    |-----------------------------------------------------|
-       UC_M_WC, KC_MINS, KC_EQL,  KC_LBRC, KC_RBRC, KC_BSLS,                      _______, _______, _______, _______,  RGB_HUI, CG_SWAP,
+       UC_M_WC, KC_MINS, KC_EQL,  KC_LBRC, KC_RBRC, KC_BSLS,                      _______, KC_MS_U, _______, KC_ASON,  RGB_HUI, CG_SWAP,
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-       UC_M_MA, KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR, KC_PIPE,                      _______, _______, _______, _______, RGB_HUD, CG_NORM,
+       UC_M_MA, KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR, KC_PIPE,                      KC_MS_L, KC_MS_D, KC_MS_R, KC_ASOFF, RGB_HUD, CG_NORM,
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
        RESET,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                        RGB_TOG, RGB_VAI,  RGB_VAD, MMAP,    NKINV,  VIA,
     //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                       KC_VOLD, KC_MS_D, KC_SPC,             KC_BSPC, KC_TRNS, KC_PGDN
+                                       KC_PGDN, KC_MS_D, KC_VOLD,             KC_BSPC, KC_TRNS, KC_RALT
                                       //|---------------------------|  |---------------------------------------|
   )
 };

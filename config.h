@@ -2,8 +2,6 @@
 
 #define EE_HANDS
 
-#define SSD1306OLED
-
 #define USE_SERIAL_PD2
 
 #ifdef RGBLIGHT_ENABLE
@@ -16,6 +14,7 @@
     #define RGBLIGHT_SAT_STEP 5
     #define RGBLIGHT_VAL_STEP 17
     #define RGBLED_SPLIT
+    #define RGBLIGHT_SLEEP
 #endif
 
 #ifdef MOUSEKEY_ENABLE
@@ -24,20 +23,24 @@
 #define MOUSEKEY_MAX_SPEED 5
 #endif
 
-
+#ifdef BOOTMAGIC_ENABLE
 // top left and top right
 #define BOOTMAGIC_LITE_ROW 0
 #define BOOTMAGIC_LITE_COLUMN 0
 #define BOOTMAGIC_LITE_ROW_RIGHT 4
 #define BOOTMAGIC_LITE_COLUMN_RIGHT 0
+#endif
 
-#define RGBLIGHT_SLEEP
-
+#ifdef OLED_DRIVER_ENABLE
 #define OLED_TIMEOUT 10000
+#define SSD1306OLED
+#define OLED_FONT_H "keyboards/crkbd/keymaps/waffle/glcdfont.c"
+#endif
 
+#ifdef UNICODEMAP_ENABLE
 #define UNICODE_SELECTED_MODES UC_WINC, UC_MAC, UC_LNX
-
 #define UNICODE_CYCLE_PERSIST false
+#endif
 
 #ifdef AUTOSHIFT_ENABLE
 #define AUTO_SHIFT_MODIFIERS
@@ -61,14 +64,12 @@
 #define NO_PRINT
 #endif
 
-#define OLED_FONT_H "keyboards/crkbd/keymaps/waffle/glcdfont.c"
-
 #define IGNORE_MOD_TAP_INTERRUPT
 #define PERMISSIVE_HOLD
 #define TAPPING_TERM 150
 
 #ifdef COMBO_ENABLE
-  #define COMBO_COUNT 8
+  #define COMBO_COUNT 10
   #define COMBO_TERM 75
 #endif
 
