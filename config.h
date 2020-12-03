@@ -9,13 +9,27 @@
 #ifdef RGBLIGHT_ENABLE
     #undef RGBLED_NUM
     #define RGBLED_NUM 27
-//    #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
-//    #define RGBLIGHT_EFFECT_STATIC_GRADIENT
+    #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+    #define RGBLIGHT_EFFECT_STATIC_GRADIENT
     #define RGBLIGHT_LIMIT_VAL 120
     #define RGBLIGHT_HUE_STEP 5
     #define RGBLIGHT_SAT_STEP 5
     #define RGBLIGHT_VAL_STEP 17
+    #define RGBLED_SPLIT
 #endif
+
+#ifdef MOUSEKEY_ENABLE
+#define MOUSEKEY_DELAY 300
+#define MOUSEKEY_INTERVAL 16
+#define MOUSEKEY_MAX_SPEED 5
+#endif
+
+
+// top left and top right
+#define BOOTMAGIC_LITE_ROW 0
+#define BOOTMAGIC_LITE_COLUMN 0
+#define BOOTMAGIC_LITE_ROW_RIGHT 4
+#define BOOTMAGIC_LITE_COLUMN_RIGHT 0
 
 #define RGBLIGHT_SLEEP
 
@@ -25,10 +39,12 @@
 
 #define UNICODE_CYCLE_PERSIST false
 
+#ifdef AUTOSHIFT_ENABLE
 #define AUTO_SHIFT_MODIFIERS
 #define AUTO_SHIFT_TIMEOUT 170
 #define NO_AUTO_SHIFT_SPECIAL
 #define NO_AUTO_SHIFT_NUMERIC
+#endif
 
 #ifdef LOCKING_SUPPORT_ENABLE
 #    undef LOCKING_SUPPORT_ENABLE
@@ -45,10 +61,15 @@
 #define NO_PRINT
 #endif
 
-#define OLED_FONT_H "keyboards/crkbd/keymaps/666/glcdfont.c"
+#define OLED_FONT_H "keyboards/crkbd/keymaps/waffle/glcdfont.c"
 
 #define IGNORE_MOD_TAP_INTERRUPT
 #define PERMISSIVE_HOLD
-#define TAPPING_TERM 200
+#define TAPPING_TERM 150
+
+#ifdef COMBO_ENABLE
+  #define COMBO_COUNT 8
+  #define COMBO_TERM 75
+#endif
 
 #define NO_ACTION_ONESHOT

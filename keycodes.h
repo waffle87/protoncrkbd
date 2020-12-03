@@ -4,7 +4,6 @@ enum layers {
   _QWERTY,
   _LOWER,
   _RAISE,
-  _ADJUST,
 };
 
 enum custom_keycodes {
@@ -24,7 +23,10 @@ enum custom_keycodes {
   GIT,
   SETUP,
   ZAD,
+  MMAP,
+  NKINV,
   CONF,
+  VIA,
   CD1
 };
 
@@ -39,3 +41,10 @@ enum custom_keycodes {
 #define CTLTZ CTL_T(KC_Z)
 #define CTLNXT RCTL_T(KC_MNXT)
 #define GPSCR G(KC_PSCR)
+#define MPSCR G(S(KC_4))
+#define CTLBSP ALT_T(KC_DEL)
+#define SFL SFT_T(KC_L)
+#define SFLPRN MT(MOD_RSFT, KC_F22)
+
+
+
