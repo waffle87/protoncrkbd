@@ -79,7 +79,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
       case SSH_PI:
         if (record->event.pressed) {
-            SEND_STRING("ssh pi@applepi.local"SS_TAP(X_ENTER) SS_DELAY(2000) "Rasp91111"SS_TAP(X_ENTER));
+            SEND_STRING("ssh pi@___.local"SS_TAP(X_ENTER) SS_DELAY(2000) "___"SS_TAP(X_ENTER));
         } else {
         }
         break;
@@ -100,14 +100,14 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
         case SETUP:
           if (record->event.pressed) {
-            SEND_STRING("https://docs.qmk.fm/#/newbs_getting_started");
+            SEND_STRING("___");
           } else {
           }
           break;
 
         case ZAD:
           if (record->event.pressed) {
-            SEND_STRING("https://docs.qmk.fm/#/driver_installation_zadig");
+            SEND_STRING("___");
           } else {
           }
           break;
@@ -121,15 +121,15 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
         case MMAP:
             if (record->event.pressed) {
-                SEND_STRING(":checkpinsbich"SS_TAP(X_ENTER)SS_TAP(X_ENTER));
-                SEND_STRING(" https://www.mechmap.tech/themap"SS_TAP(X_ENTER));
+                SEND_STRING("___"SS_TAP(X_ENTER)SS_TAP(X_ENTER));
+                SEND_STRING("___"SS_TAP(X_ENTER));
             } else {
             }
             break;
 
         case NKINV:
             if (record->event.pressed) {
-                SEND_STRING("NovelKeys Restock Updates - https://novelkeys.xyz/pages/inventory"SS_TAP(X_ENTER));
+                SEND_STRING("___"SS_TAP(X_ENTER));
             } else {
             }
             break;
