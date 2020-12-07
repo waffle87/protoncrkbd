@@ -1,4 +1,4 @@
-/* Copyright 2020 @toastedmangoes <Jack Sangdahl>
+/* Copyright 2020 @toastedmangoes/@waffle#6666
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
