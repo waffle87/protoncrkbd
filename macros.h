@@ -254,7 +254,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         }
         break;
 
-#ifdef UNICODE_ENABLE
+#ifdef UNICODEMAP_ENABLE
       case UNIT:
         if (record->event.pressed) {
           send_unicode_string("(＾▽＾)");
