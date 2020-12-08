@@ -1,4 +1,4 @@
-/* Copyright 2020 @toastedmangoes/@waffle#6666
+/* Copyright 2020 @wafflekeebs/@waffle#6666
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -14,6 +14,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+
 #pragma once
 
 #define EE_HANDS
@@ -23,6 +24,7 @@
 #ifdef RGBLIGHT_ENABLE
     #undef RGBLED_NUM
     #define RGBLED_NUM 27
+    #undef RGBLIGHT_ANIMATIONS
     #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
     #define RGBLIGHT_EFFECT_STATIC_GRADIENT
     #define RGBLIGHT_LIMIT_VAL 120
@@ -49,7 +51,7 @@
 
 #ifdef OLED_DRIVER_ENABLE
 #define OLED_TIMEOUT 10000
-#define SSD1306OLED
+//#define SSD1306OLED
 #define OLED_FONT_H "keyboards/crkbd/keymaps/waffle/glcdfont.c"
 #endif
 
@@ -65,13 +67,6 @@
 #define NO_AUTO_SHIFT_NUMERIC
 #endif
 
-#ifdef LOCKING_SUPPORT_ENABLE
-#    undef LOCKING_SUPPORT_ENABLE
-#endif
-#ifdef LOCKING_RESYNC_ENABLE
-#    undef LOCKING_RESYNC_ENABLE
-#endif
-
 #ifndef NO_DEBUG
 #define NO_DEBUG
 #endif
@@ -85,8 +80,8 @@
 #define TAPPING_TERM 150
 
 #ifdef COMBO_ENABLE
-  #define COMBO_COUNT 10
+  #define COMBO_COUNT 12
   #define COMBO_TERM 75
 #endif
 
-#define NO_ACTION_ONESHOT
+//#define NO_ACTION_ONESHOT

@@ -1,4 +1,4 @@
-/* Copyright 2020 @toastedmangoes/@waffle#6666
+/* Copyright 2020 @wafflekeebs/@waffle#6666
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -14,12 +14,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#pragma once
 
-enum {
-    BTN1B,
-    BTN2N
-};
+#pragma once
 
 qk_tap_dance_action_t tap_dance_actions[] = {
     [BTN1B] = ACTION_TAP_DANCE_DOUBLE(KC_B, KC_BTN1),

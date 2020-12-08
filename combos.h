@@ -1,4 +1,4 @@
-/* Copyright 2020 @toastedmangoes/@waffle#6666
+/* Copyright 2020 @wafflekeebs/@waffle#6666
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -13,6 +13,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+
 #pragma once
 
 enum combos {
@@ -25,7 +26,9 @@ enum combos {
   DF_BTN1,
   JK_BTN2,
   VB_WHD,
-  NM_WHU
+  NM_WHU,
+  SD_MSD,
+  KL_MSU
 };
 
 const uint16_t PROGMEM ru_combo[] = {KC_R, KC_U, COMBO_END};
@@ -38,6 +41,8 @@ const uint16_t PROGMEM df_combo[] = {KC_D, KC_F, COMBO_END};
 const uint16_t PROGMEM jk_combo[] = {KC_J, KC_K, COMBO_END};
 const uint16_t PROGMEM vb_combo[] = {KC_V, KC_B, COMBO_END};
 const uint16_t PROGMEM nm_combo[] = {KC_N, KC_M, COMBO_END};
+const uint16_t PROGMEM sd_combo[] = {KC_S, KC_D, COMBO_END};
+const uint16_t PROGMEM kl_combo[] = {KC_K, KC_L, COMBO_END};
 
 combo_t key_combos[COMBO_COUNT] = {
 [RU_ENT] = COMBO(ru_combo, KC_ENT),
@@ -49,5 +54,7 @@ combo_t key_combos[COMBO_COUNT] = {
 [DF_BTN1] = COMBO(df_combo, KC_BTN1),
 [JK_BTN2] = COMBO(jk_combo, KC_BTN2),
 [VB_WHD] = COMBO(vb_combo, KC_WH_D),
-[NM_WHU] = COMBO(nm_combo, KC_WH_U)
+[NM_WHU] = COMBO(nm_combo, KC_WH_U),
+[SD_MSD] = COMBO(sd_combo, KC_MS_D),
+[KL_MSU] = COMBO(kl_combo, KC_MS_U)
 };

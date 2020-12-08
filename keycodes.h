@@ -1,4 +1,4 @@
-/* Copyright 2020 @toastedmangoes/@waffle#6666
+/* Copyright 2020 @wafflekeebs/@waffle#6666
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -22,28 +22,59 @@ enum layers {
   _RAISE,
 };
 
+enum unicodemap_names {
+    SIDE,
+    UPAR,
+    HAS,
+    STAR,
+    VIB
+};
+
+enum {
+    BTN1B,
+    BTN2N
+};
+
+enum typing_mode {
+  TM_NOMODE,
+  TM_REGIONAL,
+  TM_WIDE,
+  TM_SCRIPT,
+  TM_BLOCKS,
+  TM_AUSSIE,
+  TM_ZALGO,
+  TM_WOWMODE,
+  TM_D3MODE
+};
+
 enum custom_keycodes {
-  QWERTY = SAFE_RANGE,
-  LOWER,
-  RAISE,
-  ADJUST,
-  CP_PSTE,
-  SSH_PI,
-  ALT_TAB,
-  CTLS,
-  MAKE,
+  CP_PSTE = SAFE_RANGE,
   UNIT,
   UNIT2,
+  UNIT3,
   UNIT4,
-  UNIT5,
+  WEEB,
+  CTLS,
+  SSH_PI,
   GIT,
   SETUP,
   ZAD,
+  CONF,
   MMAP,
   NKINV,
-  CONF,
   VIA,
-  CD1
+  CD1,
+  ALT_TAB,
+  MAKE,
+  KC_NOMODE,
+  KC_REGIONAL,
+  KC_WIDE,
+  KC_SCRIPT,
+  KC_BLOCKS,
+  KC_AUSSIE,
+  KC_ZALGO,
+  KC_WOWMODE,
+  KC_D3MODE
 };
 
 #define LOWER MO(_LOWER)
