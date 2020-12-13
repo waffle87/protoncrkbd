@@ -1,4 +1,4 @@
-# Important Info. 
+# Info. 
 
 **This firmware is very large. Literally 0 bytes free. Therefore this may not compile depending on your system and software versions** 
 
