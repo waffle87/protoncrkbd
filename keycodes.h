@@ -31,8 +31,7 @@ enum unicodemap_names {
 };
 
 enum {
-    BTN1B,
-    BTN2N
+    HAP_SAD,
 };
 
 enum typing_mode {
@@ -91,7 +90,4 @@ enum custom_keycodes {
 #define MPSCR G(S(KC_4))
 #define CTLBSP ALT_T(KC_DEL)
 #define SFL SFT_T(KC_L)
-#define SFLPRN MT(MOD_RSFT, KC_F22)
-
-
-
+#define HAPSAD TD(HAP_SAD)

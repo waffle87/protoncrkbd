@@ -17,7 +17,9 @@
 
 #pragma once
 
-#define EE_HANDS
+//#define EE_HANDS
+//#defne MASTER_RIGHT
+#define MASTER_LEFT
 
 #define USE_SERIAL_PD2
 
