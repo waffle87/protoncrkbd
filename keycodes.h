@@ -31,7 +31,10 @@ enum unicodemap_names {
 };
 
 enum {
-    HAP_SAD,
+  HAP_SAD,
+  QMK,
+  DOCS,
+  LINKS,
 };
 
 enum typing_mode {
@@ -91,3 +94,9 @@ enum custom_keycodes {
 #define CTLBSP ALT_T(KC_DEL)
 #define SFL SFT_T(KC_L)
 #define HAPSAD TD(HAP_SAD)
+#define DOCSTD TD(DOCS)
+#define LINKSTD TD(LINKS)
+#define QMKTD TD(QMK)
+#define ZHAP X(SIDE)
+#define ARWUP X(UPAR)
+#define STARX X(STAR)
