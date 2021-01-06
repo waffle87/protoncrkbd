@@ -68,6 +68,7 @@ enum custom_keycodes {
   CD1,
   ALT_TAB,
   MAKE,
+  NANORESET,
   KC_NOMODE,
   KC_REGIONAL,
   KC_WIDE,

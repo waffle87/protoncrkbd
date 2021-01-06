@@ -285,18 +285,17 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
       case WEEB:
         if (record->event.pressed) {
-          SEND_STRING("!!!"SS_TAP(X_ENTER)SS_TAP(X_BSPC)"!!!"SS_TAP(X_ENTER)SS_TAP(X_BSPC)"!!!"SS_TAP(X_ENTER)SS_TAP(X_BSPC)SS_TAP(X_ENTER));
+          SEND_STRING(":WeebsDie1"SS_TAP(X_ENTER)SS_TAP(X_BSPC)":WeebsDie2"SS_TAP(X_ENTER)SS_TAP(X_BSPC)":WeebsDie3"SS_TAP(X_ENTER)SS_TAP(X_BSPC)SS_TAP(X_ENTER));
         } else {
         }
         break;
 
       case SSH_PI:
         if (record->event.pressed) {
-            SEND_STRING("ssh !!!"SS_TAP(X_ENTER) SS_DELAY(2000) "!!!"SS_TAP(X_ENTER));
+            SEND_STRING("ssh pi@applepi.local"SS_TAP(X_ENTER) SS_DELAY(2000) "Rasp91111"SS_TAP(X_ENTER));
         } else {
         }
         break;
-#endif
 
       case CTLS:
         if (record->event.pressed) {
@@ -314,14 +313,14 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
       case SETUP:
         if (record->event.pressed) {
-          SEND_STRING("!!!");
+          SEND_STRING("https://docs.qmk.fm/#/newbs_getting_started");
         } else {
         }
         break;
 
       case ZAD:
         if (record->event.pressed) {
-          SEND_STRING("!!!");
+          SEND_STRING("https://docs.qmk.fm/#/driver_installation_zadig");
         } else {
         }
         break;
@@ -335,15 +334,15 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
       case MMAP:
         if (record->event.pressed) {
-            SEND_STRING("!!!"SS_TAP(X_ENTER)SS_TAP(X_ENTER));
-            SEND_STRING("!!!"SS_TAP(X_ENTER));
+            SEND_STRING(":checkpinsbich:"SS_TAP(X_ENTER)SS_TAP(X_ENTER));
+            SEND_STRING("https://www.mechmap.tech/themap"SS_TAP(X_ENTER));
         } else {
         }
         break;
 
       case NKINV:
         if (record->event.pressed) {
-            SEND_STRING("!!!");
+            SEND_STRING("NovelKeys Inventory Updates - https://novelkeys.xyz/pages/inventory");
         } else {
         }
         break;
@@ -362,11 +361,19 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         }
         break;
 
+/*      case NANORESET:
+        if (record->event.pressed) {
+            nanoboot_jump(void);
+        }
+        return false;
+*/
+
       case KC_NOMODE ... KC_ZALGO:
           if (record->event.pressed) {
             typing_mode = keycode - KC_REGIONAL;
           }
           return true;
+#endif
 
       case ALT_TAB:
         if (record->event.pressed) {
@@ -413,7 +420,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
           //if (typing_mode == MODE_D3MODE) {return process_record_glyph_replacement(keycode, record, unicode_range_translator_d3mode);}
       }
   }
-  #endif
+#endif
     return true;
 };
 

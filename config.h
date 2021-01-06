@@ -17,9 +17,9 @@
 
 #pragma once
 
-//#define EE_HANDS
+#define EE_HANDS
 //#defne MASTER_RIGHT
-#define MASTER_LEFT
+//#define MASTER_LEFT
 
 #define USE_SERIAL_PD2
 
@@ -56,6 +56,8 @@
 //#define SSD1306OLED
 #define OLED_FONT_H "keyboards/crkbd/keymaps/waffle/glcdfont.c"
 #endif
+
+#define NANOBOOT
 
 #ifdef UNICODEMAP_ENABLE
 #define UNICODE_SELECTED_MODES UC_WINC, UC_MAC, UC_LNX
