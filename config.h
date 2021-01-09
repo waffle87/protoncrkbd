@@ -84,8 +84,6 @@
 #define TAPPING_TERM 150
 
 #ifdef COMBO_ENABLE
-  #define COMBO_COUNT 12
-  #define COMBO_TERM 75
+  #define COMBO_COUNT 13
+  #define COMBO_TERM 50
 #endif
-
-//#define NO_ACTION_ONESHOT
