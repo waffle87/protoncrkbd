@@ -14,28 +14,28 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-
 #pragma once
 
-#define EE_HANDS
-//#defne MASTER_RIGHT
-//#define MASTER_LEFT
+//#define USE_MATRIX_I2C
+#ifdef KEYBOARD_crkbd_rev1_legacy
+#    undef USE_I2C
+#    define USE_SERIAL
+#endif
+
+#define MASTER_LEFT
+// #define MASTER_RIGHT
+//#define EE_HANDS
 
 #define USE_SERIAL_PD2
 
-#ifdef RGBLIGHT_ENABLE
-    #undef RGBLED_NUM
-    #define RGBLED_NUM 27
-    #undef RGBLIGHT_ANIMATIONS
-    #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
-    #define RGBLIGHT_EFFECT_STATIC_GRADIENT
-    #define RGBLIGHT_LIMIT_VAL 120
-    #define RGBLIGHT_HUE_STEP 5
-    #define RGBLIGHT_SAT_STEP 5
-    #define RGBLIGHT_VAL_STEP 17
-    #define RGBLED_SPLIT
-    #define RGBLIGHT_SLEEP
-#endif
+#undef RGBLED_NUM
+#define RGBLIGHT_ANIMATIONS
+#define RGBLED_NUM 27 //per half
+#define RGBLIGHT_LIMIT_VAL 120
+#define RGBLIGHT_HUE_STEP 10
+#define RGBLIGHT_SAT_STEP 17
+#define RGBLIGHT_VAL_STEP 17
+#define RGBLIGHT_SLEEP
 
 #ifdef MOUSEKEY_ENABLE
 #define MOUSEKEY_DELAY 300
@@ -51,14 +51,6 @@
 #define BOOTMAGIC_LITE_COLUMN_RIGHT 0
 #endif
 
-#ifdef OLED_DRIVER_ENABLE
-#define OLED_TIMEOUT 10000
-//#define SSD1306OLED
-#define OLED_FONT_H "keyboards/crkbd/keymaps/waffle/glcdfont.c"
-#endif
-
-#define NANOBOOT
-
 #ifdef UNICODEMAP_ENABLE
 #define UNICODE_SELECTED_MODES UC_WINC, UC_MAC, UC_LNX
 #define UNICODE_CYCLE_PERSIST false
@@ -71,14 +63,6 @@
 #define NO_AUTO_SHIFT_NUMERIC
 #endif
 
-#ifndef NO_DEBUG
-#define NO_DEBUG
-#endif
-
-#if !defined(NO_PRINT) && !defined(CONSOLE_ENABLE)
-#define NO_PRINT
-#endif
-
 #define IGNORE_MOD_TAP_INTERRUPT
 #define PERMISSIVE_HOLD
 #define TAPPING_TERM 150
@@ -86,4 +70,25 @@
 #ifdef COMBO_ENABLE
   #define COMBO_COUNT 13
   #define COMBO_TERM 50
+#endif
+
+#ifdef OLED_DRIVER_ENABLE
+#define OLED_TIMEOUT 10000
+#define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
+#endif
+
+#define STM32F303
+#ifdef STM32F303
+//RGB using PWM on pin B0
+#define WS2812_PWM_DRIVER PWMD3  // default: PWMD2
+#define WS2812_PWM_CHANNEL 3  // default: 2
+#define WS2812_PWM_PAL_MODE 2  // Pin "alternate function", see the respective datasheet for the appropriate values for your MCU. default: 2
+#define WS2812_DMA_STREAM STM32_DMA1_STREAM3  // DMA Stream for TIMx_UP, see the respective reference manual for the appropriate values for your MCU.
+#define WS2812_DMA_CHANNEL 3  // DMA Channel for TIMx_UP, see the respective reference manual for the appropriate values for your MCU.
+//Serial over USART config
+#undef SOFT_SERIAL_PIN
+#define SOFT_SERIAL_PIN A9  // USART TX pin
+#define SELECT_SOFT_SERIAL_SPEED 1 // or 0, 2, 3, 4, 5
+#define SERIAL_USART_DRIVER SD1 // USART driver of TX pin. default: SD1
+#define SERIAL_USART_TX_PAL_MODE 7 // Pin "alternate function", see the respective datasheet for the appropriate values for your MCU. default: 7
 #endif
