@@ -7,7 +7,8 @@ The [PCB](https://github.com/foostan/crkbd.git) has been modified to accomodate 
 * Moving the TRRS data line to the TX pin (A9). 
 * Moving the LED data line to ADC3-12 (B0).
 * Pull-up resistors between VCC and Serial Data (4.7k).
-Other changes that weren't required:
+
+#Other changes that weren't required:
 * Add RGB strip headers 
 * Remove SMD RGB LEDs
 
