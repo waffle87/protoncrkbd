@@ -21,6 +21,7 @@
 #    undef USE_I2C
 #    define USE_SERIAL
 #endif
+#undef SSD1306OLED
 
 #define MASTER_LEFT
 // #define MASTER_RIGHT
