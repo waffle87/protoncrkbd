@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\apple\Downloads\crkbd-master\crkbd-master\corne-cherry\pcb\corne-cherry.sch</source>
+    <date>12/27/2020 11:22:52 AM</date>
+    <tool>Eeschema (5.1.7)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Corne Cherry</title>
+        <company>foostan</company>
+        <rev>3.0.1</rev>
+        <date>2020-09-28</date>
+        <source>corne-cherry.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E2B5B</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E35B7</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E35C3</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E35E1</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E35E7</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E35ED</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E35FF</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E37AA</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E37B6</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E37F2</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>OLED</value>
+      <footprint>kbd:OLED_1side</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A91DA4B</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F863</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F86F</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F887</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F88D</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F893</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F89F</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F8AB</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F8B7</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F8CF</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F8D5</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F8DB</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F8E7</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F8F3</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F8FF</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F917</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F91D</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F923</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F92F</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F93B</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F947</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F953</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>OLED</value>
+      <footprint>kbd:OLED_1side</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C25F9A2</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1AE2DA</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F185B47</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1C0D10</tstamp>
+    </comp>
+    <comp ref="LED5">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1D9131</tstamp>
+    </comp>
+    <comp ref="LED6">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1D913B</tstamp>
+    </comp>
+    <comp ref="LED4">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1D9145</tstamp>
+    </comp>
+    <comp ref="LED29">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC ">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8C0840</tstamp>
+    </comp>
+    <comp ref="LED30">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC ">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8C084B</tstamp>
+    </comp>
+    <comp ref="LED28">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC ">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8C0855</tstamp>
+    </comp>
+    <comp ref="LED32">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8C085F</tstamp>
+    </comp>
+    <comp ref="LED33">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8C0869</tstamp>
+    </comp>
+    <comp ref="LED31">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC ">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8C0873</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE4011F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE45D00</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E2D62</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E2D5C</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E2D56</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E2D38</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E2D2C</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E2D74</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E2A33</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E29F2</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E29BF</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC ">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E281F</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>kbd:D3_SMD_v2</footprint>
+      <fields>
+        <field name="LCSC ">C402213</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5E26C6</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC5CB8</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFE34C9</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Rotary_Encoder_Switch">
+      <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RotaryEncoder*Switch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Rotary_Encoder_Switch</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="S1" name="S1" type="passive"/>
+        <pin num="S2" name="S2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2812B">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812B</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="LED">
+      <uri>C:\Program Files\KiCad\share\kicad\library/LED.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="22" name="Net-(LED2-Pad4)">
+      <node ref="LED3" pin="2"/>
+      <node ref="LED2" pin="4"/>
+    </net>
+    <net code="23" name="Net-(LED1-Pad4)">
+      <node ref="LED2" pin="2"/>
+      <node ref="LED1" pin="4"/>
+    </net>
+    <net code="24" name="Net-(LED6-Pad2)">
+      <node ref="LED6" pin="2"/>
+    </net>
+    <net code="25" name="VCC">
+      <node ref="LED1" pin="1"/>
+      <node ref="LED5" pin="1"/>
+      <node ref="LED3" pin="1"/>
+      <node ref="LED2" pin="1"/>
+      <node ref="LED6" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="R1" pin="2"/>
+      <node ref="LED4" pin="1"/>
+    </net>
+    <net code="26" name="Net-(LED5-Pad2)">
+      <node ref="LED5" pin="2"/>
+      <node ref="LED6" pin="4"/>
+    </net>
+    <net code="27" name="Net-(LED4-Pad2)">
+      <node ref="LED4" pin="2"/>
+      <node ref="LED5" pin="4"/>
+    </net>
+    <net code="28" name="Net-(LED1-Pad2)">
+      <node ref="LED4" pin="4"/>
+      <node ref="LED1" pin="2"/>
+    </net>
+    <net code="29" name="GND">
+      <node ref="SW1" pin="C"/>
+      <node ref="SW2" pin="C"/>
+      <node ref="LED1" pin="3"/>
+      <node ref="LED3" pin="3"/>
+      <node ref="LED2" pin="3"/>
+      <node ref="LED6" pin="3"/>
+      <node ref="J2" pin="4"/>
+      <node ref="LED4" pin="3"/>
+      <node ref="LED5" pin="3"/>
+    </net>
+    <net code="30" name="VDD">
+      <node ref="LED33" pin="1"/>
+      <node ref="LED28" pin="1"/>
+      <node ref="LED32" pin="1"/>
+      <node ref="J4" pin="3"/>
+      <node ref="LED30" pin="1"/>
+      <node ref="LED29" pin="1"/>
+      <node ref="LED31" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="31" name="row1">
+      <node ref="D11" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="32" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="33" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="34" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="35" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="44" name="LED">
+      <node ref="LED3" pin="4"/>
+    </net>
+    <net code="45" name="data">
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="46" name="data_r">
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="47" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="48" name="Net-(SW1-PadA)">
+      <node ref="SW1" pin="A"/>
+    </net>
+    <net code="49" name="Net-(SW1-PadB)">
+      <node ref="SW1" pin="B"/>
+    </net>
+    <net code="50" name="Net-(SW1-PadS1)">
+      <node ref="SW1" pin="S1"/>
+    </net>
+    <net code="51" name="Net-(SW1-PadS2)">
+      <node ref="SW1" pin="S2"/>
+    </net>
+    <net code="52" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="53" name="Net-(SW2-PadA)">
+      <node ref="SW2" pin="A"/>
+    </net>
+    <net code="54" name="Net-(SW2-PadB)">
+      <node ref="SW2" pin="B"/>
+    </net>
+    <net code="55" name="Net-(SW2-PadS1)">
+      <node ref="SW2" pin="S1"/>
+    </net>
+    <net code="56" name="Net-(SW2-PadS2)">
+      <node ref="SW2" pin="S2"/>
+    </net>
+    <net code="57" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="58" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="59" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="60" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="61" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="62" name="LED_r">
+      <node ref="LED30" pin="4"/>
+    </net>
+    <net code="63" name="Net-(LED28-Pad4)">
+      <node ref="LED28" pin="4"/>
+      <node ref="LED29" pin="2"/>
+    </net>
+    <net code="64" name="Net-(LED29-Pad4)">
+      <node ref="LED29" pin="4"/>
+      <node ref="LED30" pin="2"/>
+    </net>
+    <net code="65" name="Net-(LED33-Pad2)">
+      <node ref="LED33" pin="2"/>
+    </net>
+    <net code="66" name="Net-(LED32-Pad2)">
+      <node ref="LED33" pin="4"/>
+      <node ref="LED32" pin="2"/>
+    </net>
+    <net code="67" name="Net-(LED31-Pad2)">
+      <node ref="LED31" pin="2"/>
+      <node ref="LED32" pin="4"/>
+    </net>
+    <net code="68" name="Net-(LED28-Pad2)">
+      <node ref="LED28" pin="2"/>
+      <node ref="LED31" pin="4"/>
+    </net>
+    <net code="70" name="GNDA">
+      <node ref="LED32" pin="3"/>
+      <node ref="LED33" pin="3"/>
+      <node ref="LED31" pin="3"/>
+      <node ref="LED29" pin="3"/>
+      <node ref="LED30" pin="3"/>
+      <node ref="LED28" pin="3"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="71" name="Net-(D29-Pad2)">
+      <node ref="D29" pin="2"/>
+    </net>
+    <net code="72" name="Net-(D24-Pad2)">
+      <node ref="D24" pin="2"/>
+    </net>
+    <net code="73" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2"/>
+    </net>
+    <net code="74" name="Net-(D26-Pad2)">
+      <node ref="D26" pin="2"/>
+    </net>
+    <net code="75" name="Net-(D27-Pad2)">
+      <node ref="D27" pin="2"/>
+    </net>
+    <net code="76" name="Net-(D22-Pad2)">
+      <node ref="D22" pin="2"/>
+    </net>
+    <net code="77" name="Net-(D30-Pad2)">
+      <node ref="D30" pin="2"/>
+    </net>
+    <net code="78" name="Net-(D31-Pad2)">
+      <node ref="D31" pin="2"/>
+    </net>
+    <net code="79" name="Net-(D32-Pad2)">
+      <node ref="D32" pin="2"/>
+    </net>
+    <net code="80" name="Net-(D33-Pad2)">
+      <node ref="D33" pin="2"/>
+    </net>
+    <net code="81" name="Net-(D28-Pad2)">
+      <node ref="D28" pin="2"/>
+    </net>
+    <net code="82" name="row3">
+      <node ref="D20" pin="1"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D19" pin="1"/>
+    </net>
+    <net code="83" name="Net-(D23-Pad2)">
+      <node ref="D23" pin="2"/>
+    </net>
+    <net code="85" name="row0_r">
+      <node ref="D25" pin="1"/>
+      <node ref="D24" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D23" pin="1"/>
+    </net>
+    <net code="86" name="row1_r">
+      <node ref="D29" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="D33" pin="1"/>
+      <node ref="D32" pin="1"/>
+    </net>
+    <net code="88" name="Net-(D34-Pad2)">
+      <node ref="D34" pin="2"/>
+    </net>
+    <net code="89" name="Net-(D35-Pad2)">
+      <node ref="D35" pin="2"/>
+    </net>
+    <net code="90" name="Net-(D36-Pad2)">
+      <node ref="D36" pin="2"/>
+    </net>
+    <net code="91" name="Net-(D37-Pad2)">
+      <node ref="D37" pin="2"/>
+    </net>
+    <net code="92" name="Net-(D38-Pad2)">
+      <node ref="D38" pin="2"/>
+    </net>
+    <net code="93" name="Net-(D39-Pad2)">
+      <node ref="D39" pin="2"/>
+    </net>
+    <net code="94" name="row2_r">
+      <node ref="D37" pin="1"/>
+      <node ref="D36" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="D39" pin="1"/>
+    </net>
+    <net code="95" name="Net-(D41-Pad2)">
+      <node ref="D41" pin="2"/>
+    </net>
+    <net code="96" name="Net-(D42-Pad2)">
+      <node ref="D42" pin="2"/>
+    </net>
+    <net code="97" name="row3_r">
+      <node ref="D40" pin="1"/>
+      <node ref="D42" pin="1"/>
+      <node ref="D41" pin="1"/>
+    </net>
+    <net code="98" name="Net-(D40-Pad2)">
+      <node ref="D40" pin="2"/>
+    </net>
+    <net code="99" name="row0">
+      <node ref="D3" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="100" name="row2">
+      <node ref="D14" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D15" pin="1"/>
+    </net>
+    <net code="102" name="Net-(D18-Pad2)">
+      <node ref="D18" pin="2"/>
+    </net>
+    <net code="103" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="104" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="105" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2"/>
+    </net>
+    <net code="106" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="107" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2"/>
+    </net>
+    <net code="108" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="109" name="Net-(D20-Pad2)">
+      <node ref="D20" pin="2"/>
+    </net>
+    <net code="110" name="Net-(D21-Pad2)">
+      <node ref="D21" pin="2"/>
+    </net>
+    <net code="111" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2"/>
+    </net>
+    <net code="113" name="SDA">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="114" name="SCL">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="147" name="SCL_r">
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="148" name="SDA_r">
+      <node ref="J4" pin="1"/>
+    </net>
+  </nets>
+</export>

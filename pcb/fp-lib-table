@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name kbd)(type KiCad)(uri ${KIPRJMOD}/kbd/kicad-footprints/kbd.pretty)(options "")(descr ""))
+  (lib (name Keebio-Parts)(type KiCad)(uri C:/Users/apple/Downloads/Keebio-Parts.pretty-master/Keebio-Parts.pretty-master)(options "")(descr ""))
+  (lib (name SK6812MINI)(type KiCad)(uri C:/Users/apple/Downloads/kicad-SK6812MINI-master/kicad-SK6812MINI-master/SK6812MINI.pretty)(options "")(descr ""))
+)
