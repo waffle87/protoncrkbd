@@ -16,11 +16,7 @@
 
 #pragma once
 
-//#define USE_MATRIX_I2C
-#ifdef KEYBOARD_crkbd_rev1_legacy
-#    undef USE_I2C
-#    define USE_SERIAL
-#endif
+#undef USE_I2C
 #undef SSD1306OLED
 
 #define MASTER_LEFT
@@ -74,12 +70,12 @@
 #endif
 
 #ifdef OLED_DRIVER_ENABLE
-#define OLED_TIMEOUT 10000
+//#define OLED_TIMEOUT 10000
+#define OLED_DISABLE_TIMEOUT
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
 #endif
 
-#define STM32F303
-#ifdef STM32F303
+#ifdef CONVERT_TO_PROTON_C
 //RGB using PWM on pin B0
 #define WS2812_PWM_DRIVER PWMD3  // default: PWMD2
 #define WS2812_PWM_CHANNEL 3  // default: 2
