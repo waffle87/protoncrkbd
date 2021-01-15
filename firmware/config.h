@@ -15,6 +15,7 @@
  */
 
 #pragma once
+#include "config_common.h"
 
 #undef USE_I2C
 #undef SSD1306OLED
@@ -75,7 +76,6 @@
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
 #endif
 
-#ifdef CONVERT_TO_PROTON_C
 //RGB using PWM on pin B0
 #define WS2812_PWM_DRIVER PWMD3  // default: PWMD2
 #define WS2812_PWM_CHANNEL 3  // default: 2
@@ -84,8 +84,7 @@
 #define WS2812_DMA_CHANNEL 3  // DMA Channel for TIMx_UP, see the respective reference manual for the appropriate values for your MCU.
 //Serial over USART config
 #undef SOFT_SERIAL_PIN
-#define SOFT_SERIAL_PIN A9  // USART TX pin
+#define SOFT_SERIAL_PIN D3  // USART TX pin
 #define SELECT_SOFT_SERIAL_SPEED 1 // or 0, 2, 3, 4, 5
 #define SERIAL_USART_DRIVER SD1 // USART driver of TX pin. default: SD1
 #define SERIAL_USART_TX_PAL_MODE 7 // Pin "alternate function", see the respective datasheet for the appropriate values for your MCU. default: 7
-#endif
