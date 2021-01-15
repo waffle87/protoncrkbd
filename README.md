@@ -14,4 +14,4 @@ The [PCB](https://github.com/foostan/crkbd.git) has been modified to accomodate 
 ## Firmware Info. 
 * Remove the `rules.mk` file in `crkbd/rev1`
 * Work in the `crkbd/rev1/common/keymaps` folder as the legacy code will not work. 
-* Typing will feel laggy withouth both halves connected. 
+* Typing will feel laggy **without** both halves connected. 
