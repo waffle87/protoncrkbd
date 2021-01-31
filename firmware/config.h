@@ -73,7 +73,7 @@
 #ifdef OLED_DRIVER_ENABLE
 //#define OLED_TIMEOUT 10000
 #define OLED_DISABLE_TIMEOUT
-#define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
+#define OLED_FONT_H "keyboards/crkbd/rev1/common/keymaps/waffle_arm/glcdfont.c"
 #endif
 
 //RGB using PWM on pin B0

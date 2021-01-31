@@ -16,6 +16,13 @@
 
 #pragma once
 
+enum layers {
+    _QWERTY,
+    _LOWER,
+    _RAISE,
+    _ADJUST,
+};
+
 enum unicodemap_names {
     SIDE,
     UPAR,

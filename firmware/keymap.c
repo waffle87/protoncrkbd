@@ -51,16 +51,19 @@
 #include QMK_KEYBOARD_H
 #include "combos.h"
 #include "keycodes.h"
-//#include "macros.h"
+#include "macros.h"
 #include "tapdance.c"
 #include "unicode.h"
 #ifdef POIINTING_DEVICE_ENABLE
 #include "pimoroni_trackball.c"
 #include "pimoroni_trackball.h"
 #endif
+#ifdef OLED_DRIVER_ENABLE
+#include "oled.c"
+#endif
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-  [0] = LAYOUT(
+  [_QWERTY] = LAYOUT(
     //|---------------------------------------------------|                 |------------------------------------------------------|
        QMKTD,    KC_Q,   KC_W,    KC_E,    KC_R,    KC_T,                     KC_Y,    KC_U,    KC_I,      KC_O,    KC_P,  MPSCR,
     //|--------+--------+--------+--------+--------+------|                 |--------+--------+--------+--------+--------+---------|
@@ -74,7 +77,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   ),
 
-  [1] = LAYOUT(
+  [_LOWER] = LAYOUT(
     //|------------------------------------------------------|                    |----------------------------------------------------------|
        DOCSTD,   KC_1,    KC_2,    KC_3,     KC_4,     KC_5,                         KC_6,     KC_7,     KC_8,     KC_9,    KC_0,    KC_MNXT,
     //|--------+--------+--------+--------+--------+---------|                    |--------+--------+--------+--------+--------+-------------|
@@ -86,19 +89,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                         //|-------------------------|  |----------------------------|
   ),
 
-  [2] = LAYOUT(
+  [_RAISE] = LAYOUT(
     //|-----------------------------------------------------|                    |---------------------------------------------------------------|
        UC_M_WC, KC_MINS, KC_EQL,  KC_LBRC, KC_RBRC, KC_BSLS,                      KC_NOMODE, KC_BLOCKS, KC_AUSSIE,   KC_ASON,  UNIT2,   CG_SWAP,
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+------------------|
        UC_M_MA, KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR, KC_PIPE,                      KC_WIDE,   KC_SCRIPT, KC_REGIONAL, KC_ASOFF, WEEB,    CG_NORM,
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+------------------|
-       _______,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                        UNIT,      UNIT3,     UNIT4,       _______,  _______, _______,
+       RESET,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                        UNIT,      UNIT3,     UNIT4,       _______,  _______, _______,
     //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+------------------|
                                        KC_PGDN, KC_MS_D, KC_VOLD,             KC_BSPC, KC_TRNS, KC_RALT
                                       //|---------------------------|  |---------------------------------------|
   ),
 
-    [3] = LAYOUT(
+    [_ADJUST] = LAYOUT(
   //|-----------------------------------------------------|                    |-----------------------------------------------------|
      _______, _______, _______, _______, _______, _______,                       _______, _______, _______, _______, _______, _______,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
@@ -111,6 +114,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   )
 };
 
+/*
 #ifdef OLED_DRIVER_ENABLE
 oled_rotation_t oled_init_user(oled_rotation_t rotation) {
   if (!is_master) {
@@ -175,7 +179,7 @@ void oled_render_keylog(void) {
 }
 
 void render_bootmagic_status(bool status) {
-    /* Show Ctrl-Gui Swap options */
+     Show Ctrl-Gui Swap options
     static const char PROGMEM logo[][2][3] = {
         {{0x97, 0x98, 0}, {0xb7, 0xb8, 0}},
         {{0x95, 0x96, 0}, {0xb5, 0xb6, 0}},
@@ -207,13 +211,14 @@ void oled_task_user(void) {
     }
 }
 
-/*bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   if (record->event.pressed) {
     set_keylog(keycode, record);
   }
   return true;
-}*/
+}
 #endif // OLED_DRIVER_ENABLE
+*/
 
 /*
   [BLANK] = LAYOUT(
