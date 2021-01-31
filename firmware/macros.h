@@ -16,11 +16,18 @@
 
 
 #pragma once
+#include <stdio.h>
+#include <time.h>
+#ifdef RANDICT
+#include "users/ridingqwerty/dict.h"
+#endif
 
 bool is_alt_tab_active = false;
 uint16_t alt_tab_timer = 0;
 uint16_t typing_mode;
+uint16_t rand_key;
 uint8_t temp_keycode;
+bool randword_seed = false;
 
 #ifdef UNICODEMAP_ENABLE
 __attribute__ ((weak))
@@ -254,7 +261,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         }
         break;
 
-#ifdef UNICODEMAP_ENABLE
       case UNIT:
         if (record->event.pressed) {
           send_unicode_string("(＾▽＾)");
@@ -285,64 +291,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
       case WEEB:
         if (record->event.pressed) {
-          SEND_STRING("!!!"SS_TAP(X_ENTER)SS_TAP(X_BSPC)"!!!"SS_TAP(X_ENTER)SS_TAP(X_BSPC)"!!!"SS_TAP(X_ENTER)SS_TAP(X_BSPC)SS_TAP(X_ENTER));
-        } else {
-        }
-        break;
-
-      case SSH_PI:
-        if (record->event.pressed) {
-            SEND_STRING("!!!"SS_TAP(X_ENTER) SS_DELAY(2000) "!!!"SS_TAP(X_ENTER));
-        } else {
-        }
-        break;
-
-      case CTLS:
-        if (record->event.pressed) {
-          SEND_STRING(SS_DOWN(X_LGUI)SS_TAP(X_S)SS_UP(X_LGUI));
-        } else {
-        }
-        break;
-
-      case GIT:
-        if (record->event.pressed) {
-          SEND_STRING("https://github.com/qmk/qmk_firmware/find/master"SS_TAP(X_ENTER));
-        } else {
-        }
-        break;
-
-      case SETUP:
-        if (record->event.pressed) {
-          SEND_STRING("!!!");
-        } else {
-        }
-        break;
-
-      case ZAD:
-        if (record->event.pressed) {
-          SEND_STRING("!!!");
-        } else {
-        }
-        break;
-
-      case CONF:
-        if (record->event.pressed) {
-          SEND_STRING("https://config.qmk.fm/#/"SS_TAP(X_ENTER));
-        } else {
-        }
-        break;
-
-      case MMAP:
-        if (record->event.pressed) {
-            SEND_STRING("!!!"SS_TAP(X_ENTER)SS_TAP(X_ENTER));
-            SEND_STRING("!!!"SS_TAP(X_ENTER));
-        } else {
-        }
-        break;
-
-      case NKINV:
-        if (record->event.pressed) {
-            SEND_STRING("!!!");
+          SEND_STRING(":WeebsDie1"SS_TAP(X_ENTER)SS_TAP(X_BSPC)":WeebsDie2"SS_TAP(X_ENTER)SS_TAP(X_BSPC)":WeebsDie3"SS_TAP(X_ENTER)SS_TAP(X_BSPC)SS_TAP(X_ENTER));
         } else {
         }
         break;
@@ -354,19 +303,25 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         }
         break;
 
-      case CD1:
+#ifdef RANDICT
+      case RWORD:
+        if (randword_seed == false) {
+            randword_seed = true;
+            srand(timer_read32());
+        }
+        rand_key = rand() % NUMBER_OF_WORDS;
         if (record->event.pressed) {
-          SEND_STRING("cd qmk_firmware"SS_TAP(X_ENTER));
-        } else {
+            send_string(dict[rand_key]);
+            tap_code(KC_SPC);
         }
         break;
+#endif
 
       case KC_NOMODE ... KC_ZALGO:
           if (record->event.pressed) {
             typing_mode = keycode - KC_REGIONAL;
           }
           return true;
-#endif
 
       case ALT_TAB:
         if (record->event.pressed) {

@@ -57,19 +57,11 @@ enum custom_keycodes {
   UNIT3,
   UNIT4,
   WEEB,
-  CTLS,
-  SSH_PI,
-  GIT,
-  SETUP,
-  ZAD,
-  CONF,
-  MMAP,
-  NKINV,
   VIA,
-  CD1,
+  KC_SBOB,
+  RWORD,
   ALT_TAB,
   MAKE,
-  NANORESET,
   KC_NOMODE,
   KC_REGIONAL,
   KC_WIDE,
@@ -93,6 +85,7 @@ enum custom_keycodes {
 #define CTLNXT RCTL_T(KC_MNXT)
 #define GPSCR G(KC_PSCR)
 #define MPSCR G(S(KC_4))
+#define CTLS S(KC_S)
 #define CTLBSP ALT_T(KC_DEL)
 #define SFL SFT_T(KC_L)
 #define HAPSAD TD(HAP_SAD)

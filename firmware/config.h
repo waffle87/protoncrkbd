@@ -25,6 +25,7 @@
 //#define EE_HANDS
 
 #define USE_SERIAL_PD2
+#define RANDICT //this literally adds 8000 bytes to your compiled firmware
 
 #undef RGBLED_NUM
 #define RGBLIGHT_ANIMATIONS
