@@ -22,12 +22,19 @@
 #include "users/ridingqwerty/dict.h"
 #endif
 
-bool is_alt_tab_active = false;
 uint16_t alt_tab_timer = 0;
 uint16_t typing_mode;
 uint16_t rand_key;
 uint8_t temp_keycode;
+bool is_alt_tab_active = false;
 bool randword_seed = false;
+bool is_sponge_active = false;
+bool random_bool(void){
+    bool rbool = rand() & 1;
+     return rbool;
+}
+
+#define MODS_MASK (MOD_BIT(KC_LSHIFT) | MOD_BIT(KC_LCTRL))
 
 #ifdef UNICODEMAP_ENABLE
 __attribute__ ((weak))
@@ -249,7 +256,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         }
         break;
 
-
       case MT(MOD_RSFT, KC_F24):
         if (record->tap.count > 0) {
           if (record->event.pressed) {
@@ -291,7 +297,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
       case WEEB:
         if (record->event.pressed) {
-          SEND_STRING("!!!"SS_TAP(X_ENTER)SS_TAP(X_BSPC)"!!!"SS_TAP(X_ENTER)SS_TAP(X_BSPC)"!!!"SS_TAP(X_ENTER)SS_TAP(X_BSPC)SS_TAP(X_ENTER));
+          SEND_STRING(":WeebsDie1"SS_TAP(X_ENTER)SS_TAP(X_BSPC)":WeebsDie2"SS_TAP(X_ENTER)SS_TAP(X_BSPC)":WeebsDie3"SS_TAP(X_ENTER)SS_TAP(X_BSPC)SS_TAP(X_ENTER));
         } else {
         }
         break;
@@ -323,6 +329,19 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
           }
           return true;
 
+      case KC_A ... KC_Z: {
+          if (is_sponge_active && record->event.pressed) {
+              if (random_bool()) {
+                  register_code(KC_LSHIFT);
+              }
+          }
+          break;
+      }
+
+      case SPONGE:
+        if ((keyboard_report->mods & MODS_MASK) && record->event.pressed) is_sponge_active = !is_sponge_active;
+        break;
+
       case ALT_TAB:
         if (record->event.pressed) {
           if (!is_alt_tab_active) {
@@ -338,7 +357,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
       case MAKE:
         if (!record->event.pressed) {
-          //SEND_STRING("cd qmk_firmware"SS_TAP(X_ENTER)SS_DELAY(500));
           SEND_STRING("make " QMK_KEYBOARD ":" QMK_KEYMAP
 #if (defined(BOOTLOADER_DFU) || defined(BOOTLOADER_LUFA_DFU) || defined(BOOTLOADER_QMK_DFU))
                           ":dfu"
@@ -370,6 +388,16 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   }
 #endif
     return true;
+};
+
+void post_process_record_user(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case KC_A ... KC_Z: {
+            if (is_sponge_active && record->event.pressed) {
+                unregister_code(KC_LSHIFT);
+            }
+        }
+    }
 };
 
 void matrix_scan_user(void) {

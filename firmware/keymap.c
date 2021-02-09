@@ -51,6 +51,7 @@
 #include QMK_KEYBOARD_H
 #include "keycodes.h"
 #include "macros.h"
+#include "rgb.c"
 #ifdef TAP_DANCE_ENABLE
 #include "tapdance.c"
 #endif
@@ -101,7 +102,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+------------------|
        UC_M_MA, KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR, KC_PIPE,                      KC_WIDE,   KC_SCRIPT, KC_REGIONAL, KC_ASOFF, WEEB,    CG_NORM,
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+------------------|
-       RESET,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                        UNIT,      UNIT3,     UNIT4,       RWORD,    _______, _______,
+       RESET,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                        UNIT,      UNIT3,     UNIT4,       RWORD,    SPONGE, _______,
     //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+------------------|
                                        KC_PGDN, KC_MS_D, KC_VOLD,             KC_BSPC, KC_TRNS, KC_RALT
                                       //|---------------------------|  |---------------------------------------|
