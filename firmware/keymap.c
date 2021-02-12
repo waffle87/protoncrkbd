@@ -51,7 +51,9 @@
 #include QMK_KEYBOARD_H
 #include "keycodes.h"
 #include "macros.h"
+#ifdef RGBLIGHT_ENABLE
 #include "rgb.c"
+#endif
 #ifdef TAP_DANCE_ENABLE
 #include "tapdance.c"
 #endif
