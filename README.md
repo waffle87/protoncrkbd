@@ -16,4 +16,4 @@ The [PCB](https://github.com/foostan/crkbd.git) has been modified to accomodate 
 * Remove the `rules.mk` file in `crkbd/rev1`
 * Work in the `crkbd/rev1/common/keymaps` folder as the legacy code will not work. 
 * Typing will feel laggy **without** both halves connected. 
-* Currently bitbanging the RGB until I get PWM figured out. Doesn't seem to be any input lag. 👍
+* See `rules.mk` for info. regarding using PWM for RGB. (default is bitbang)
