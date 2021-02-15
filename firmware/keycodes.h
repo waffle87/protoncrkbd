@@ -58,6 +58,7 @@ enum custom_keycodes {
   UNIT4,
   WEEB,
   VIA,
+  RGBRST,
   RWORD,
   SPONGE,
   ALT_TAB,
@@ -75,19 +76,17 @@ enum custom_keycodes {
 
 #define LOWER MO(1)
 #define RAISE MO(2)
+#define TGADJ TG(4)
 #define SFA SFT_T(KC_A)
-#define SFCLN RSFT_T(KC_SCLN)
-#define CTLSLH RCTL_T(KC_SLSH)
+#define SFCLN SFT_T(KC_SCLN)
+#define CTLSLH CTL_T(KC_SLSH)
 #define SFEXM MT(MOD_LSFT, KC_F23)
 #define SFPRN MT(MOD_RSFT, KC_F24)
 #define CTLESC CTL_T(KC_ESC)
 #define CTLTZ CTL_T(KC_Z)
-#define CTLNXT RCTL_T(KC_MNXT)
 #define GPSCR G(KC_PSCR)
 #define MPSCR G(S(KC_4))
 #define CTLS S(KC_S)
-#define CTLBSP ALT_T(KC_DEL)
-#define SFL SFT_T(KC_L)
 #define HAPSAD TD(HAP_SAD)
 #define DOCSTD TD(DOCS)
 #define LINKSTD TD(LINKS)

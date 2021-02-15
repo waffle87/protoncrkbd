@@ -32,6 +32,7 @@
 #define USE_SERIAL_PD2
 #define RANDICT //this literally adds 8000 bytes to your compiled firmware
 
+#ifdef RGBLIGHT_ENABLE
 #undef RGBLED_NUM
 #undef RGB_DI_PIN
 #define RGBLIGHT_ANIMATIONS
@@ -44,6 +45,7 @@
 #define RGBLIGHT_VAL_STEP 17
 #define RGBLIGHT_SLEEP
 //#define RGBLIGHT_LAYERS
+#endif
 
 #ifdef MOUSEKEY_ENABLE
 #define MOUSEKEY_DELAY 300
@@ -76,7 +78,7 @@
 #define TAPPING_TERM 150
 
 #ifdef COMBO_ENABLE
-  #define COMBO_COUNT 13
+  #define COMBO_COUNT 14
   #define COMBO_TERM 50
 #endif
 

@@ -40,6 +40,15 @@ oled_rotation_t oled_init_user(oled_rotation_t rotation) {
     return rotation;
 }
 
+void render_wpm(void) {
+    char wpm_string[5];
+        oled_write_ln("WPM:", false);
+        snprintf(wpm_string,
+    sizeof(wpm_string), " %3d",
+    get_current_wpm());
+        oled_write(wpm_string, false);
+};
+
 void render_qmk_logo(void) {
     static const char PROGMEM font_qmk_logo[16] = {0x8a, 0x8b, 0x8c, 0x8d, 0x8e, 0xaa, 0xab, 0xac, 0xad, 0xae, 0xca, 0xcb, 0xcc, 0xcd, 0xce, 0};
     oled_write_P(font_qmk_logo, false);
@@ -188,6 +197,27 @@ static void render_anim(void) {
     }
 }
 
+void render_main(void) {
+    if (get_current_wpm() != 000) {
+        oled_set_cursor(0, 0);
+        render_wpm();
+        oled_set_cursor(0, 6);
+        render_qmk_logo();
+        oled_set_cursor(0, 13);
+        render_prompt();
+    } else {
+        oled_off();
+    }
+}
+
+void oled_task_user(void) {
+    if (is_keyboard_master()) {
+        render_main();
+    } else {
+        render_anim();
+    }
+}
+
 /* bongo - empty style
 static void render_anim(void) {
 
@@ -289,38 +319,3 @@ static void render_anim(void) {
     }
 }
 */
-
-void render_status_main(void) {
-  if (get_current_wpm() != 000) {
-      oled_write_ln("", false);
-      oled_write_ln("", false);
-      oled_write_ln("", false);
-      oled_write_ln("", false);
-      oled_write_ln("", false);
-
-      render_qmk_logo();
-
-      oled_write_ln("", false);
-      oled_write_ln("", false);
-      oled_write_ln("", false);
-
-      render_prompt();
-  } else {
-    oled_off();
-  }
-}
-
-void oled_task_user(void) {
-    if (is_keyboard_master()) {
-        char wpm_string[5];
-            oled_write_ln("WPM:", false);
-            snprintf(wpm_string,
-        sizeof(wpm_string), " %3d",
-        get_current_wpm());
-            oled_write(wpm_string, false);
-        render_status_main();
-    } else {
-        render_anim();
-    }
-}
-
