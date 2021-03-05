@@ -1,4 +1,4 @@
-/* Copyright 2020 @wafflekeebs/@waffle#6666
+/* Copyright 2021 @ItsWaffle/@waffle#6666
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,9 +16,9 @@
 
  * QWERTY
  * ,-----------------------------------------.         ,-----------------------------------------.
- * | QMK  |   Q  |   W  |   E  |   R  |   T  |         |   Y  |   U  |   I  |   O  |   P  | NEXT |
+ * |  QMK |   Q  |   W  |   E  |   R  |   T  |         |   Y  |   U  |   I  |   O  |   P  | NEXT |
  * |------+------+------+------+------+------|         |------+------+------+------+------+------|
- * | TAB  |   A  |   S  |   D  |   F  |   G  |         |   H  |   J  |   K  |   L  |   ;  | PLAY |
+ * |  TAB |   A  |   S  |   D  |   F  |   G  |         |   H  |   J  |   K  |   L  |   ;  | PLAY |
  * |------+------+------+------+------+------|         |------+------+------+------+------+------|
  * |  C/P |   Z  |   X  |   C  |   V  |   B  |         |   N  |   M  |   ,  |   .  |   /  | PREV |
  * `-----------------------------------------|         |-----------------------------------------'
@@ -29,7 +29,7 @@
  * ,-----------------------------------------.         ,-----------------------------------------.
  * | DOCS  |   1  |   2  |   3  |   4  |   5 |         |   6  |   7  |   8  |   9  |   0  | PSCR |
  * |------+------+------+------+------+------|         |------+------+------+------+------+------|
- * | LINK |   !  |   @  |   #  |   $  |   %  |         |   ^  |   &  |   *  |   (  |   )  | MAKE |
+ * | SLCK |   !  |   @  |   #  |   $  |   %  |         |   ^  |   &  |   *  |   (  |   )  | MAKE |
  * |------+------ +------+------+------+-----|         |------+------+------+------+------+------|
  * |  H/S |  ESC |  TAB | CAPS |   ~  |   `  |         |   ←  |   ↑  |   ↓  |   →  |  CTL | CTLS |
  * `-----------------------------------------|         |-----------------------------------------'
@@ -38,7 +38,7 @@
  *
  * RAISE
  * ,-----------------------------------------.         ,-----------------------------------------.
- * | UN-W  |   -  |   =  |   [  |   ]  |  \  |         | NOMO | BLCK |  AUS | ASON | UNI2 | CGSW |
+ * | UN-W |   -  |   =  |   [  |   ]  |   \  |         | NOMO | BLCK |  AUS | ASON | UNI2 | CGSW |
  * |------+------+------+------+------+------|         |------+------+------+------+------+------|
  * | UN-M |   _  |   +  |   {  |   }  |   |  |         | WIDE | SCRI | REGI | ASOF | WEEB | CGNO |
  * |------+-------------+------+------+------|         |------+------+------+------+------+------|
@@ -62,6 +62,9 @@
 
 #include QMK_KEYBOARD_H
 #include "keycodes.h"
+#if defined(OLED_DRIVER_ENABLE) && defined(WPM_ENABLE)
+#include "oled.c"
+#endif
 #include "macros.h"
 #ifdef RGBLIGHT_ENABLE
 #include "rgb.c"
@@ -78,9 +81,6 @@
 #ifdef POIINTING_DEVICE_ENABLE
 #include "pimoroni_trackball.c"
 #include "pimoroni_trackball.h"
-#endif
-#if defined(OLED_DRIVER_ENABLE) && defined(WPM_ENABLE)
-#include "oled.c"
 #endif
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -102,7 +102,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     //|------------------------------------------------------|                    |----------------------------------------------------------|
        DOCSTD,   KC_1,    KC_2,    KC_3,     KC_4,     KC_5,                         KC_6,     KC_7,     KC_8,     KC_9,    KC_0,    GPSCR,
     //|--------+--------+--------+--------+--------+---------|                    |--------+--------+--------+--------+--------+-------------|
-       LINKSTD,  SFEXM,   KC_AT,   KC_HASH,  KC_DLR,   KC_PERC,                      KC_CIRC,  KC_AMPR,  KC_ASTR,  KC_LPRN, KC_RPRN, MAKE,
+       KC_SLCK,  SFEXM,   KC_AT,   KC_HASH,  KC_DLR,   KC_PERC,                      KC_CIRC,  KC_AMPR,  KC_ASTR,  KC_LPRN, KC_RPRN, MAKE,
     //|--------+--------+--------+--------+--------+---------|                    |--------+--------+--------+--------+--------+-------------|
        HAPSAD,  CTLESC,  KC_TAB,  KC_CAPS,  KC_TILD,  KC_GRV,                       KC_LEFT,  KC_UP,    KC_DOWN,  KC_RGHT,  KC_RCTL, CTLS,
     //|--------+--------+--------+--------+--------+--------+-------|  |--------+--------+--------+--------+--------+--------+---------------|

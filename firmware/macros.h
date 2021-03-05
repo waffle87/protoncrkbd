@@ -1,4 +1,4 @@
-/* Copyright 2020 @wafflekeebs/@waffle#6666
+/* Copyright 2021 @Itswaffle/@waffle#6666
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -14,10 +14,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-
 #pragma once
 #include <stdio.h>
 #include <time.h>
+#include <print.h>
 #ifdef RANDICT
 #include "users/ridingqwerty/dict.h"
 #endif
@@ -231,7 +231,10 @@ bool process_record_zalgo(uint16_t keycode, keyrecord_t *record) {
 
 bool no_mod_taps = false;
 #endif
+
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+  //uprintf("KL: kc: 0x%04X, col: %2u, row: %2u, pressed: %b, time: %5u, int: %b, count: %u\n", keycode, record->event.key.col, record->event.key.row, record->event.pressed, record->event.time, record->tap.interrupted, record->tap.count);
+  process_record_user_oled(keycode, record);
   temp_keycode = keycode;
     if (keycode >= QK_MOD_TAP && keycode <= QK_MOD_TAP_MAX) {
         temp_keycode &= 0xFF;
@@ -267,6 +270,20 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         }
         break;
 
+      case KC_SPC:
+        if (record->event.pressed) {
+            isJumping = true;
+            showedJump = false;
+        } else {
+            isJumping = false;
+        }
+        break;
+
+      case KC_LCTL:
+      case KC_RCTL:
+        isSneaking = record->event.pressed;
+      break;
+
       case UNIT:
         if (record->event.pressed) {
           send_unicode_string("(＾▽＾)");
@@ -297,7 +314,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
       case WEEB:
         if (record->event.pressed) {
-          SEND_STRING("!!!"SS_TAP(X_ENTER)SS_TAP(X_BSPC)"!!!"SS_TAP(X_ENTER)SS_TAP(X_BSPC)"!!!"SS_TAP(X_ENTER)SS_TAP(X_BSPC)SS_TAP(X_ENTER));
+          SEND_STRING(":WeebsDie1"SS_TAP(X_ENTER)SS_TAP(X_BSPC)":WeebsDie2"SS_TAP(X_ENTER)SS_TAP(X_BSPC)":WeebsDie3"SS_TAP(X_ENTER)SS_TAP(X_BSPC)SS_TAP(X_ENTER));
         } else {
         }
         break;

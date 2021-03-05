@@ -1,4 +1,4 @@
-/* Copyright 2020 @wafflekeebs/@waffle#6666
+/* Copyright 2021 @Itswaffle/@waffle#6666
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -27,10 +27,11 @@
 
 #define EE_HANDS
 //#define MASTER_LEFT
-// #define MASTER_RIGHT
+//#define MASTER_RIGHT
 
 #define USE_SERIAL_PD2
 #define RANDICT //this literally adds 8000 bytes to your compiled firmware
+//#define FELIX //felix the dog on your oled :D
 
 #ifdef RGBLIGHT_ENABLE
 #undef RGBLED_NUM
@@ -44,7 +45,7 @@
 #define RGBLIGHT_SAT_STEP 17
 #define RGBLIGHT_VAL_STEP 17
 #define RGBLIGHT_SLEEP
-//#define RGBLIGHT_LAYERS
+#define RGBLIGHT_LAYERS
 #endif
 
 #ifdef MOUSEKEY_ENABLE
@@ -78,7 +79,7 @@
 #define TAPPING_TERM 150
 
 #ifdef COMBO_ENABLE
-  #define COMBO_COUNT 14
+  #define COMBO_COUNT 15
   #define COMBO_TERM 50
 #endif
 

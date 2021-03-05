@@ -1,4 +1,4 @@
-/* Copyright 2020 @wafflekeebs/@waffle#6666
+/* Copyright 2021 @Itswaffle/@waffle#6666
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -35,7 +35,6 @@ enum {
   HAP_SAD,
   QMK,
   DOCS,
-  LINKS,
 };
 
 enum typing_mode {
@@ -74,23 +73,32 @@ enum custom_keycodes {
   KC_D3MODE
 };
 
+//---layers---
 #define LOWER MO(1)
 #define RAISE MO(2)
 #define TGADJ TG(4)
+//---general---
 #define SFA SFT_T(KC_A)
 #define SFCLN SFT_T(KC_SCLN)
-#define CTLSLH CTL_T(KC_SLSH)
 #define SFEXM MT(MOD_LSFT, KC_F23)
 #define SFPRN MT(MOD_RSFT, KC_F24)
-#define CTLESC CTL_T(KC_ESC)
-#define CTLTZ CTL_T(KC_Z)
+//---windows---
 #define GPSCR G(KC_PSCR)
-#define MPSCR G(S(KC_4))
+#define CTLTZ CTL_T(KC_Z)
+#define CTLESC CTL_T(KC_ESC)
+#define CTLSLH CTL_T(KC_SLSH)
 #define CTLS S(KC_S)
+//---mac---
+#define MPSCR G(S(KC_4))
+#define MACTAB G(KC_TAB)
+#define CMDZ CMD_T(KC_Z)
+#define CMDESC CMT_T(KC_ESC)
+#define CMDSLSH CMD_T(KC_SLSH)
+//---tap_dance---
 #define HAPSAD TD(HAP_SAD)
 #define DOCSTD TD(DOCS)
-#define LINKSTD TD(LINKS)
 #define QMKTD TD(QMK)
+//---unicode---
 #define ZHAP X(SIDE)
 #define ARWUP X(UPAR)
 #define STARX X(STAR)
