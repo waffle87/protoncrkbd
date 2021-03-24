@@ -1793,15 +1793,4 @@ F 3 "" H 7050 4000 50  0001 C CNN
 	1    7050 4000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small R3
-U 1 1 5FF8A753
-P 3450 5400
-F 0 "R3" H 3509 5446 50  0000 L CNN
-F 1 "R_Small" H 3509 5355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3450 5400 50  0001 C CNN
-F 3 "~" H 3450 5400 50  0001 C CNN
-	1    3450 5400
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
