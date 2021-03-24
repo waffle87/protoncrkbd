@@ -1,4 +1,4 @@
-18978173533628978
+19286780624018462
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -81157,6 +81157,97 @@ THT Terminal Block WAGO 804-324 45Degree pitch 7.5mm size 179x15mm^2 drill 1.2mm
 0
 48
 24
+TerminalBlock_Wuerth
+Wuerth_REDCUBE-THR_WP-THRBU_74650073_THR
+REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650073.pdf)
+screw terminal thread redcube thr power connector
+0
+8
+1
+TerminalBlock_Wuerth
+Wuerth_REDCUBE-THR_WP-THRBU_74650074_THR
+REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650074.pdf)
+screw terminal thread redcube thr power connector
+0
+8
+1
+TerminalBlock_Wuerth
+Wuerth_REDCUBE-THR_WP-THRBU_74650094_THR
+REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650094.pdf)
+screw terminal thread redcube thr power connector
+0
+16
+1
+TerminalBlock_Wuerth
+Wuerth_REDCUBE-THR_WP-THRBU_74650173_THR
+REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650173.pdf)
+screw terminal thread redcube thr power connector
+0
+8
+1
+TerminalBlock_Wuerth
+Wuerth_REDCUBE-THR_WP-THRBU_74650174_THR
+REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650174.pdf)
+screw terminal thread redcube thr power connector
+0
+8
+1
+TerminalBlock_Wuerth
+Wuerth_REDCUBE-THR_WP-THRBU_74650194_THR
+REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650194.pdf)
+screw terminal thread redcube thr power connector
+0
+18
+1
+TerminalBlock_Wuerth
+Wuerth_REDCUBE-THR_WP-THRBU_74650195_THR
+REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74650195.pdf)
+screw terminal thread redcube thr power connector
+0
+18
+1
+TerminalBlock_Wuerth
+Wuerth_REDCUBE-THR_WP-THRBU_74655095_THR
+REDCUBE THR with internal through-hole thread WP-THRBU (https://www.we-online.de/katalog/datasheet/74655095.pdf)
+screw terminal thread redcube thr power connector
+0
+16
+1
+TerminalBlock_Wuerth
+Wuerth_REDCUBE-THR_WP-THRSH_74651173_THR
+REDCUBE THR with internal through-hole thread WP-THRSH (https://www.we-online.de/katalog/datasheet/74651173.pdf)
+screw terminal thread redcube thr power connector
+0
+8
+1
+TerminalBlock_Wuerth
+Wuerth_REDCUBE-THR_WP-THRSH_74651174_THR
+REDCUBE THR with internal through-hole thread WP-THRSH (https://www.we-online.de/katalog/datasheet/74651174.pdf)
+screw terminal thread redcube thr power connector
+0
+8
+1
+TerminalBlock_Wuerth
+Wuerth_REDCUBE-THR_WP-THRSH_74651175_THR
+REDCUBE THR with internal through-hole thread WP-THRSH (https://www.we-online.de/katalog/datasheet/74651175.pdf)
+screw terminal thread redcube thr power connector
+0
+8
+1
+TerminalBlock_Wuerth
+Wuerth_REDCUBE-THR_WP-THRSH_74651194_THR
+REDCUBE THR with internal through-hole thread WP-THRSH (https://www.we-online.de/katalog/datasheet/74651194.pdf)
+screw terminal thread redcube thr power connector
+0
+18
+1
+TerminalBlock_Wuerth
+Wuerth_REDCUBE-THR_WP-THRSH_74651195_THR
+REDCUBE THR with internal through-hole thread WP-THRSH (https://www.we-online.de/katalog/datasheet/74651195.pdf)
+screw terminal thread redcube thr power connector
+0
+18
+1
 TestPoint
 TestPoint_2Pads_Pitch2.54mm_Drill0.8mm
 Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm
@@ -82935,36 +83026,827 @@ varistor SIOV
 0
 2
 2
-silks
-avr_isp3
+kbd
+1pin_conn
+Resitance 3 pas
+R
+0
+1
+1
+kbd
+Breakaway_Tabs
 
 
 0
 0
 0
-silks
-bongo
+kbd
+CherryMX_1u
+
+
+0
+2
+2
+kbd
+CherryMX_ChocV2_1.5u
+
+
+0
+5
+2
+kbd
+CherryMX_ChocV2_1u
+
+
+0
+5
+2
+kbd
+CherryMX_Choc_1.5u
+
+
+0
+4
+2
+kbd
+CherryMX_Choc_1u
+
+
+0
+4
+2
+kbd
+CherryMX_Choc_Hotswap
+
+
+0
+8
+2
+kbd
+CherryMX_Choc_Hotswap_1.5u
+
+
+0
+8
+2
+kbd
+CherryMX_Hotswap
+
+
+0
+2
+2
+kbd
+CherryMX_Hotswap_1.5u
+
+
+0
+2
+2
+kbd
+CherryMX_MidHeight_Choc_Hotswap
+
+
+0
+8
+2
+kbd
+CherryMX_MidHeight_Hotswap
+
+
+0
+4
+2
+kbd
+CherryMX_MidHeight_Hotswap_1.5u
+
+
+0
+4
+2
+kbd
+ChocV1_V2_Hotswap
+
+
+0
+3
+2
+kbd
+ChocV1_V2_Hotswap_1.5u
+
+
+0
+3
+2
+kbd
+D3_SMD
+Resitance 3 pas
+R
+0
+4
+2
+kbd
+D3_SMD_v2
+Resitance 3 pas
+R
+0
+2
+2
+kbd
+D3_TH
+Resitance 3 pas
+R
+0
+4
+2
+kbd
+D3_TH_SMD
+Resitance 3 pas
+R
+0
+6
+2
+kbd
+D3_TH_SMD_v2
+Resitance 3 pas
+R
+0
+4
+2
+kbd
+GND_pad
+
+
+0
+2
+2
+kbd
+HOLE
+Mounting Hole 2.2mm, no annular, M2
+mounting hole 2.2mm no annular m2
+0
+0
+0
+kbd
+IM_HOLE
+Mounting Hole 2.2mm, no annular, M2
+mounting hole 2.2mm no annular m2
+0
+0
+0
+kbd
+JP
+
+
+0
+3
+2
+kbd
+JPC2
+
+
+0
+3
+2
+kbd
+Jumper
+
+
+0
+2
+2
+kbd
+LED_WS2812B-PLCC4
+http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf
+LED NeoPixel
+0
+4
+4
+kbd
+M2_HOLE
+Mounting Hole 2.2mm, no annular, M2
+mounting hole 2.2mm no annular m2
+0
+1
+0
+kbd
+M2_HOLE_v2
+Mounting Hole 2.2mm, no annular, M2
+mounting hole 2.2mm no annular m2
+0
+0
+0
+kbd
+M2_HOLE_v3
+Mounting Hole 2.2mm, no annular, M2
+mounting hole 2.2mm no annular m2
+0
+9
+1
+kbd
+M2_Hole_NPTH_Outside
 
 
 0
 0
 0
-silks
+kbd
+M2_Hole_TH
+
+
+0
+1
+0
+kbd
+M2_Hole_TH_Outside
+
+
+0
+1
+0
+kbd
+M2_Threads_v2
+Mounting Hole 2.2mm, no annular, M2
+mounting hole 2.2mm no annular m2
+0
+1
+0
+kbd
+MJ-4PP-9
+
+
+0
+8
+4
+kbd
+MJ-4PP-9_1side
+
+
+0
+4
+4
+kbd
+MX_ALPS_PG1350_noLed
+
+
+0
+11
+2
+kbd
+MX_ALPS_PG1350_noLed_1.75u
+
+
+0
+11
+2
+kbd
+OLED
+Connecteur 6 pins
+CONN DEV
+0
+4
+4
+kbd
+OLED_1side
+Connecteur 6 pins
+CONN DEV
+0
+4
+4
+kbd
+OLED_v2
+Connecteur 6 pins
+CONN DEV
+0
+4
+4
+kbd
+ProMicro_v2
+
+
+0
+48
+24
+kbd
+ProMicro_v2_1side
+
+
+0
+24
+24
+kbd
+ProMicro_v3
+
+
+0
+24
+24
+kbd
+ProMicro_v3.5
+
+
+0
+24
+24
+kbd
+R
+Resitance 3 pas
+R
+0
+2
+2
+kbd
+ResetSW
+
+
+0
+2
+2
+kbd
+ResetSW_1side
+
+
+0
+2
+2
+kbd
+ResetSW_4
+
+
+0
+4
+2
+kbd
+ResetSW_4P
+
+
+0
+4
+2
+kbd
+SK6812MINI_rev
+
+
+0
+8
+4
+kbd
+SK6812MINI_underglow_rev
+
+
+0
+8
+4
+kbd
+SW_Hole
+
+
+0
+0
+0
+kbd
+SW_Hole_ALPS
+
+
+0
+0
+0
+kbd
+SW_Hole_TH
+
+
+0
+4
+1
+kbd
+StripLED_1side
+
+
+0
+3
+3
+kbd
+StripLED_OUT_1side
+
+
+0
+1
+1
+kbd
+StripLED_rev
+
+
+0
+6
+3
+kbd
+YS-SK6812MINI-E
+
+
+0
+4
+4
+kbd
 corne
 
 
 0
 0
 0
-silks
-waffle2
+kbd
+corne-cherry-logo
 
 
 0
 0
 0
-silks
-weeb
+kbd
+corne-horizontal
+
+
+0
+0
+0
+kbd
+corne-logo
+
+
+0
+0
+0
+kbd
+corne-logo-horizontal
+
+
+0
+0
+0
+kbd
+corne-logo-horizontal-mask
+
+
+0
+0
+0
+kbd
+corne-logo-silk
+
+
+0
+0
+0
+kbd
+corne-mask
+
+
+0
+0
+0
+kbd
+keyswitch_cherrymx_alps_choc12_1.5u
+
+
+0
+6
+2
+kbd
+keyswitch_cherrymx_alps_choc12_1u
+
+
+0
+6
+2
+kbd
+keyswitch_hole
+
+
+0
+2
+2
+kbd
+petit_split-logo
+
+
+0
+0
+0
+kbd
+spacer_m2
+Mounting Hole 2.2mm, no annular, M2
+mounting hole 2.2mm no annular m2
+0
+0
+0
+kbd
+thread_m2
+Mounting Hole 2.2mm, no annular, M2
+mounting hole 2.2mm no annular m2
+0
+0
+0
+kbd
+waffle
+
+
+0
+0
+0
+keyswitches
+Kailh_socket_MX
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+2
+2
+keyswitches
+Kailh_socket_MX_optional
+MX-style keyswitch with support for optional Kailh socket
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+keyswitches
+Kailh_socket_MX_optional_platemount
+MX-style keyswitch with support for optional Kailh socket
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+keyswitches
+Kailh_socket_MX_optional_reversible
+MX-style keyswitch with support for reversible optional Kailh socket
+MX,cherry,gateron,kailh,pg1511,socket
+0
+8
+2
+keyswitches
+Kailh_socket_MX_optional_reversible_platemount
+MX-style keyswitch with support for reversible optional Kailh socket
+MX,cherry,gateron,kailh,pg1511,socket
+0
+8
+2
+keyswitches
+Kailh_socket_MX_platemount
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+2
+2
+keyswitches
+Kailh_socket_MX_reversible
+MX-style keyswitch with reversible Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+keyswitches
+Kailh_socket_MX_reversible_platemount
+MX-style keyswitch with reversible Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+keyswitches
+Kailh_socket_PG1350
+Kailh "Choc" PG1350 keyswitch socket mount
+kailh,choc
+0
+2
+2
+keyswitches
+Kailh_socket_PG1350_optional
+Kailh "Choc" PG1350 keyswitch with optional socket mount
+kailh,choc
+0
+4
+2
+keyswitches
+Kailh_socket_PG1350_optional_reversible
+Kailh "Choc" PG1350 keyswitch with optional socket mount, reversible
+kailh,choc
+0
+7
+2
+keyswitches
+Kailh_socket_PG1350_reversible
+Kailh "Choc" PG1350 keyswitch reversible socket mount
+kailh,choc
+0
+4
+2
+keyswitches
+SW_MX
+MX-style keyswitch
+MX,cherry,gateron,kailh
+0
+2
+2
+keyswitches
+SW_MX_reversible
+MX-style keyswitch, reversible
+MX,cherry,gateron,kailh
+0
+4
+2
+keyswitches
+SW_MX_reversible_minimal
+MX-style keyswitch, reversible, without pcb-mount holes
+MX,cherry,gateron,kailh
+0
+4
+2
+keyswitches
+SW_PG1350
+Kailh "Choc" PG1350 keyswitch
+kailh,choc
+0
+2
+2
+keyswitches
+SW_PG1350_reversible
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB
+kailh,choc
+0
+3
+2
+keyswitches
+SW_PG1350_reversible_rotatable
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB and/or rotated 90 degrees (see README)
+kailh,choc
+0
+6
+2
+keyswitches
+Stabilizer_MX_2u
+MX-style stabilizer mount
+MX,cherry,gateron,kailh,pg1511,stabilizer,stab
+0
+0
+0
+random-keyboard-parts
+D_SOD-123-Pretty
+SOD-123
+SOD-123
+0
+2
+2
+random-keyboard-parts
+Generic-Mounthole
+
+
+0
+1
+1
+random-keyboard-parts
+JST-SR-3
+
+
+0
+5
+3
+random-keyboard-parts
+JST-SR-4
+
+
+0
+6
+4
+random-keyboard-parts
+Jumper-UserFriendly
+
+
+0
+2
+2
+random-keyboard-parts
+Jumper-UserFriendly-Small
+
+
+0
+2
+2
+random-keyboard-parts
+LED-6028
+
+
+0
+2
+2
+random-keyboard-parts
+LED_D3.0mm-NoSilk
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+random-keyboard-parts
+LED_D3.0mm-Pretty
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+random-keyboard-parts
+Molex-0548190519
+
+
+0
+7
+6
+random-keyboard-parts
+Molex-0548190589
+
+
+0
+9
+6
+random-keyboard-parts
+PJ-3200B-4A
+
+
+0
+4
+4
+random-keyboard-parts
+PJ-3200B-4A-Assembly
+
+
+0
+4
+4
+random-keyboard-parts
+PushButton_6x6mm_TH
+
+
+0
+4
+4
+random-keyboard-parts
+PushButton_6x6mm_TH_Pretty
+
+
+0
+4
+4
+random-keyboard-parts
+RGB-6028
+
+
+0
+4
+4
+random-keyboard-parts
+Reset_Pretty
+
+
+0
+6
+6
+random-keyboard-parts
+Reset_Pretty-Mask
+
+
+0
+6
+6
+random-keyboard-parts
+SKQG-1155865
+
+
+0
+4
+4
+random-keyboard-parts
+SKQGADE010
+
+
+0
+4
+4
+random-keyboard-parts
+SOT143B
+
+
+0
+4
+4
+random-keyboard-parts
+USB-A-Generic
+
+
+0
+6
+5
+random-keyboard-parts
+USON-TPDxE05U06
+
+
+0
+10
+10
+random-keyboard-parts
+breakaway-mousebites
 
 
 0
