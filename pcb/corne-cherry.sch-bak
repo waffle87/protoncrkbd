@@ -2031,7 +2031,7 @@ U 1 1 606C1E95
 P 5630 7110
 F 0 "J5" H 5602 7042 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 5602 7133 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal" H 5630 7110 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5630 7110 50  0001 C CNN
 F 3 "~" H 5630 7110 50  0001 C CNN
 	1    5630 7110
 	-1   0    0    1   
@@ -2287,4 +2287,6 @@ F 3 "" H 7250 4050 50  0001 C CNN
 	1    7250 4050
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	4620 6410 4500 6410
 $EndSCHEMATC
