@@ -47,6 +47,8 @@ void keyboard_post_init_user(void) {
     rgblight_enable_noeeprom();
     rgblight_sethsv_noeeprom(HSV_CYAN);
     rgblight_mode_noeeprom(RGBLIGHT_MODE_STATIC_LIGHT);
+#ifdef RGBLIGHT_LAYERS
     rgblight_layers = my_rgb_layers;
+#endif
 }
 

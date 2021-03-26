@@ -56,7 +56,6 @@ enum custom_keycodes {
   UNIT3,
   UNIT4,
   WEEB,
-  VIA,
   RGBRST,
   RWORD,
   SPONGE,
@@ -82,6 +81,8 @@ enum custom_keycodes {
 #define SFCLN SFT_T(KC_SCLN)
 #define SFEXM MT(MOD_LSFT, KC_F23)
 #define SFPRN MT(MOD_RSFT, KC_F24)
+#define ALTQ ALT_T(KC_Q)
+#define ALTP ALT_T(KC_P)
 //---windows---
 #define GPSCR G(KC_PSCR)
 #define CTLTZ CTL_T(KC_Z)

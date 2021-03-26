@@ -31,7 +31,6 @@
 
 #define USE_SERIAL_PD2
 #define RANDICT //this literally adds 8000 bytes to your compiled firmware
-//#define FELIX //felix the dog on your oled :D
 
 #ifdef RGBLIGHT_ENABLE
 #undef RGBLED_NUM
@@ -45,7 +44,7 @@
 #define RGBLIGHT_SAT_STEP 17
 #define RGBLIGHT_VAL_STEP 17
 #define RGBLIGHT_SLEEP
-#define RGBLIGHT_LAYERS
+//#define RGBLIGHT_LAYERS
 #endif
 
 #ifdef MOUSEKEY_ENABLE
@@ -84,7 +83,7 @@
 #endif
 
 #ifdef OLED_DRIVER_ENABLE
-#define OLED_TIMEOUT 10000
+#define OLED_TIMEOUT 30000
 #define OLED_DISABLE_TIMEOUT
 #define OLED_FONT_H "keyboards/crkbd/rev1/common/keymaps/waffle_arm/glcdfont.c"
 #endif
