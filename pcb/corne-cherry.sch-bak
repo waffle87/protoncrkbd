@@ -1687,17 +1687,6 @@ F 4 "C402213" H 4900 1425 50  0001 C CNN "LCSC "
 	1    4900 1425
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x03 P1
-U 1 1 5FEC8D74
-P 5750 4050
-F 0 "P1" H 5830 4092 50  0000 L CNN
-F 1 "Conn_01x03" H 5830 4001 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5750 4050 50  0001 C CNN
-F 3 "~" H 5750 4050 50  0001 C CNN
-	1    5750 4050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5550 3950 5050 3950
 Wire Wire Line
@@ -1726,8 +1715,6 @@ F 3 "" H 5050 4000 50  0001 C CNN
 	1    5050 4000
 	1    0    0    -1  
 $EndComp
-Text GLabel 5550 4150 0    47   Input ~ 0
-LED
 Wire Wire Line
 	7550 3950 7050 3950
 Wire Wire Line
@@ -2775,7 +2762,7 @@ F 3 "~" H 5580 7510 50  0001 C CNN
 	1    5580 7510
 	0    -1   -1   0   
 $EndComp
-Text GLabel 5580 6909 1    47   Input ~ 0
+Text GLabel 5580 6910 1    47   Input ~ 0
 LED
 $Comp
 L Jumper:SolderJumper_3_Open JP2
@@ -2816,4 +2803,20 @@ F 3 "" H 10275 625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 10875 2225
+NoConn ~ 5718 9687
+NoConn ~ 5470 8376
+NoConn ~ 6300 8231
+Text GLabel 5550 4150 0    47   Input ~ 0
+LED
+$Comp
+L Connector_Generic:Conn_01x03 P1
+U 1 1 5FEC8D74
+P 5750 4050
+F 0 "P1" H 5830 4092 50  0000 L CNN
+F 1 "Conn_01x03" H 5830 4001 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5750 4050 50  0001 C CNN
+F 3 "~" H 5750 4050 50  0001 C CNN
+	1    5750 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -4,10 +4,10 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "Corne Cherry"
+Title "Protorne"
 Date "2020-09-28"
 Rev "3.0.1"
-Comp "foostan"
+Comp "Waffle Inc."
 Comment1 ""
 Comment2 ""
 Comment3 ""
