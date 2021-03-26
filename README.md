@@ -1,6 +1,6 @@
 # Proton-C compatible crkbd keyboard 
-![CRKBD](https://raw.githubusercontent.com/wafflekeebs/waffle_corne/proton-c/images/crkbd.png)
-![PCB_LAYOUT](https://raw.githubusercontent.com/wafflekeebs/waffle_corne/proton-c/images/pcb.png)
+![CRKBD](https://raw.githubusercontent.com/ItsWaffIe/waffle_corne/proton-c/images/3d_pcb.png)
+![PCB_LAYOUT](https://raw.githubusercontent.com/ItsWaffIe/waffle_corne/proton-c/images/pcb_new.png)
 
 * Thank you to [Drashna](https://github.com/drashna) & [Tzarc](https://github.com/tzarc) for all the help on this project :3
 ## PCB Info.  
