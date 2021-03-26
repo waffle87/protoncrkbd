@@ -628,17 +628,6 @@ Wire Wire Line
 Wire Wire Line
 	6125 3375 6300 3375
 $Comp
-L kbd:ProMicro U2
-U 1 1 5C25F857
-P 10175 1675
-F 0 "U2" H 10175 2625 60  0000 C CNN
-F 1 "ProMicro" H 10175 1125 60  0000 C CNN
-F 2 "kbd:ProMicro_v3" H 10275 625 60  0001 C CNN
-F 3 "" H 10275 625 60  0000 C CNN
-	1    10175 1675
-	1    0    0    -1  
-$EndComp
-$Comp
 L kbd:SW_PUSH SW23
 U 1 1 5C25F85D
 P 12575 1400
@@ -1698,17 +1687,6 @@ F 4 "C402213" H 4900 1425 50  0001 C CNN "LCSC "
 	1    4900 1425
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x03 P1
-U 1 1 5FEC8D74
-P 5750 4050
-F 0 "P1" H 5830 4092 50  0000 L CNN
-F 1 "Conn_01x03" H 5830 4001 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5750 4050 50  0001 C CNN
-F 3 "~" H 5750 4050 50  0001 C CNN
-	1    5750 4050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5550 3950 5050 3950
 Wire Wire Line
@@ -1737,8 +1715,6 @@ F 3 "" H 5050 4000 50  0001 C CNN
 	1    5050 4000
 	1    0    0    -1  
 $EndComp
-Text GLabel 5550 4150 0    47   Input ~ 0
-LED
 Wire Wire Line
 	7550 3950 7050 3950
 Wire Wire Line
@@ -2012,19 +1988,6 @@ Wire Wire Line
 Wire Wire Line
 	1770 5700 1650 5700
 NoConn ~ 5220 5020
-$Comp
-L Connector:Conn_01x01_Male J5
-U 1 1 606C1E95
-P 5630 7110
-F 0 "J5" H 5602 7042 50  0000 R CNN
-F 1 "Conn_01x01_Male" H 5602 7133 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5630 7110 50  0001 C CNN
-F 3 "~" H 5630 7110 50  0001 C CNN
-	1    5630 7110
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5430 7110 5220 7110
 Wire Wire Line
 	1350 5360 2070 5360
 Wire Wire Line
@@ -2522,13 +2485,13 @@ NoConn ~ 11380 5050
 $Comp
 L Connector:Conn_01x01_Male J6
 U 1 1 605E67F8
-P 9560 7140
-F 0 "J6" H 9532 7072 50  0000 R CNN
-F 1 "Conn_01x01_Male" H 9532 7163 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9560 7140 50  0001 C CNN
-F 3 "~" H 9560 7140 50  0001 C CNN
-	1    9560 7140
-	-1   0    0    1   
+P 9510 7540
+F 0 "J6" H 9482 7472 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 9709 7389 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9510 7540 50  0001 C CNN
+F 3 "~" H 9510 7540 50  0001 C CNN
+	1    9510 7540
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	7510 5390 8230 5390
@@ -2777,10 +2740,45 @@ F 3 "" H 11400 4870 50  0001 C CNN
 	1    11400 4870
 	1    0    0    -1  
 $EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP1
+U 1 1 60654C8B
+P 5580 7110
+F 0 "JP1" V 5534 7178 50  0000 L CNN
+F 1 "SolderJumper_3_Open" V 5625 7178 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 5580 7110 50  0001 C CNN
+F 3 "~" H 5580 7110 50  0001 C CNN
+	1    5580 7110
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J5
+U 1 1 606C1E95
+P 5580 7510
+F 0 "J5" H 5552 7442 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 5552 7533 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5580 7510 50  0001 C CNN
+F 3 "~" H 5580 7510 50  0001 C CNN
+	1    5580 7510
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5580 6910 1    47   Input ~ 0
+LED
+$Comp
+L Jumper:SolderJumper_3_Open JP2
+U 1 1 606B8CED
+P 9510 7140
+F 0 "JP2" V 9464 7208 50  0000 L CNN
+F 1 "SolderJumper_3_Open" V 9555 7208 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 9510 7140 50  0001 C CNN
+F 3 "~" H 9510 7140 50  0001 C CNN
+	1    9510 7140
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	2400 8460 2230 8460
-Text GLabel 2475 2275 2    50   Input ~ 0
-B9_AUDIO
+	5220 7110 5430 7110
+Text GLabel 9510 6940 2    47   Input ~ 0
+LED_r
 $Comp
 L kbd:ProMicro U1
 U 1 1 5A5E14C2
@@ -2792,60 +2790,33 @@ F 3 "" H 1875 675 60  0000 C CNN
 	1    1775 1725
 	1    0    0    -1  
 $EndComp
+NoConn ~ 2475 2275
 $Comp
-L power:VCC #PWR0117
-U 1 1 608B3375
-P 2230 8360
-F 0 "#PWR0117" H 2230 8210 50  0001 C CNN
-F 1 "VCC" H 2245 8533 50  0000 C CNN
-F 2 "" H 2230 8360 50  0001 C CNN
-F 3 "" H 2230 8360 50  0001 C CNN
-	1    2230 8360
+L kbd:ProMicro U2
+U 1 1 5C25F857
+P 10175 1675
+F 0 "U2" H 10175 2625 60  0000 C CNN
+F 1 "ProMicro" H 10175 1125 60  0000 C CNN
+F 2 "kbd:ProMicro_v3" H 10275 625 60  0001 C CNN
+F 3 "" H 10275 625 60  0000 C CNN
+	1    10175 1675
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2230 8460 2230 8360
-Text GLabel 2600 8460 2    50   Input ~ 0
-B9_AUDIO
+NoConn ~ 10875 2225
+NoConn ~ 5718 9687
+NoConn ~ 5470 8376
+NoConn ~ 6300 8231
+Text GLabel 5550 4150 0    47   Input ~ 0
+LED
 $Comp
-L Device:R_Small R3
-U 1 1 60895581
-P 2500 8460
-F 0 "R3" V 2304 8460 50  0000 C CNN
-F 1 "R_Small" V 2395 8460 50  0000 C CNN
-F 2 "" H 2500 8460 50  0001 C CNN
-F 3 "~" H 2500 8460 50  0001 C CNN
-	1    2500 8460
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7474 8703 7304 8703
-$Comp
-L power:VCC #PWR?
-U 1 1 60A2BF96
-P 7304 8603
-F 0 "#PWR?" H 7304 8453 50  0001 C CNN
-F 1 "VCC" H 7319 8776 50  0000 C CNN
-F 2 "" H 7304 8603 50  0001 C CNN
-F 3 "" H 7304 8603 50  0001 C CNN
-	1    7304 8603
+L Connector_Generic:Conn_01x03 P1
+U 1 1 5FEC8D74
+P 5750 4050
+F 0 "P1" H 5830 4092 50  0000 L CNN
+F 1 "Conn_01x03" H 5830 4001 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5750 4050 50  0001 C CNN
+F 3 "~" H 5750 4050 50  0001 C CNN
+	1    5750 4050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7304 8703 7304 8603
-Text GLabel 7674 8703 2    50   Input ~ 0
-B9_AUDIO_R
-$Comp
-L Device:R_Small R?
-U 1 1 60A2BFA2
-P 7574 8703
-F 0 "R?" V 7378 8703 50  0000 C CNN
-F 1 "R_Small" V 7469 8703 50  0000 C CNN
-F 2 "" H 7574 8703 50  0001 C CNN
-F 3 "~" H 7574 8703 50  0001 C CNN
-	1    7574 8703
-	0    1    1    0   
-$EndComp
-Text GLabel 10875 2225 2    50   Input ~ 0
-B9_AUDIO_R
 $EndSCHEMATC
