@@ -3,4 +3,5 @@
   (lib (name Keebio-Parts)(type KiCad)(uri C:/Users/apple/Downloads/Keebio-Parts.pretty-master/Keebio-Parts.pretty-master)(options "")(descr ""))
   (lib (name SK6812MINI)(type KiCad)(uri C:/Users/apple/Downloads/kicad-SK6812MINI-master/kicad-SK6812MINI-master/SK6812MINI.pretty)(options "")(descr ""))
   (lib (name weeb)(type KiCad)(uri ${KIPRJMOD}/weeb.pretty)(options "")(descr ""))
+  (lib (name svg)(type KiCad)(uri ${KIPRJMOD}/svg)(options "")(descr ""))
 )

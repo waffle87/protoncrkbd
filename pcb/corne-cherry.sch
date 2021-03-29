@@ -522,7 +522,6 @@ NoConn ~ 1075 1275
 Text GLabel 2475 1575 2    47   Input ~ 0
 col0
 NoConn ~ 2475 2175
-NoConn ~ 1075 2175
 Text GLabel 1075 1575 0    47   Input ~ 0
 SDA
 Text GLabel 1075 1675 0    47   Input ~ 0
@@ -1217,7 +1216,6 @@ NoConn ~ 9475 1225
 Text GLabel 10875 1525 2    47   Input ~ 0
 col0_r
 NoConn ~ 10875 2125
-NoConn ~ 9475 2125
 Text GLabel 9475 1525 0    47   Input ~ 0
 SDA_r
 Text GLabel 9475 1625 0    47   Input ~ 0
@@ -2819,4 +2817,64 @@ F 3 "~" H 5750 4050 50  0001 C CNN
 	1    5750 4050
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 6062157F
+P 1612 7647
+F 0 "R3" V 1416 7647 50  0000 C CNN
+F 1 "R_Small" V 1507 7647 50  0000 C CNN
+F 2 "Buzzer_Beeper:Buzzer_Mallory_AST1109MLTRQ" H 1612 7647 50  0001 C CNN
+F 3 "~" H 1612 7647 50  0001 C CNN
+	1    1612 7647
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1512 7647 1383 7647
+Wire Wire Line
+	1383 7647 1383 7557
+$Comp
+L power:VCC #PWR0117
+U 1 1 606BAF80
+P 1383 7557
+F 0 "#PWR0117" H 1383 7407 50  0001 C CNN
+F 1 "VCC" H 1398 7730 50  0000 C CNN
+F 2 "" H 1383 7557 50  0001 C CNN
+F 3 "" H 1383 7557 50  0001 C CNN
+	1    1383 7557
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 606DACBD
+P 7740 8302
+F 0 "R4" V 7544 8302 50  0000 C CNN
+F 1 "R_Small" V 7635 8302 50  0000 C CNN
+F 2 "Buzzer_Beeper:Buzzer_Mallory_AST1109MLTRQ" H 7740 8302 50  0001 C CNN
+F 3 "~" H 7740 8302 50  0001 C CNN
+	1    7740 8302
+	0    1    1    0   
+$EndComp
+Text GLabel 7840 8302 2    50   Input ~ 0
+B1_AUDIO_R
+Wire Wire Line
+	7640 8302 7467 8302
+$Comp
+L power:VDD #PWR0118
+U 1 1 606F170B
+P 7467 8158
+F 0 "#PWR0118" H 7467 8008 50  0001 C CNN
+F 1 "VDD" H 7482 8331 50  0000 C CNN
+F 2 "" H 7467 8158 50  0001 C CNN
+F 3 "" H 7467 8158 50  0001 C CNN
+	1    7467 8158
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7467 8158 7467 8302
+Text GLabel 9475 2125 0    50   Input ~ 0
+B1_AUDIO_R
+Text GLabel 1712 7647 2    50   Input ~ 0
+B1_AUDIO
+Text GLabel 1075 2175 0    50   Input ~ 0
+B1_AUDIO
 $EndSCHEMATC

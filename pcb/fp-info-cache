@@ -1,4 +1,4 @@
-19301331439967881
+19296481723761217
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83544,13 +83544,6 @@ mounting hole 2.2mm no annular m2
 0
 0
 0
-kbd
-waffle
-
-
-0
-0
-0
 keyswitches
 Kailh_socket_MX
 MX-style keyswitch with Kailh socket mount
@@ -83852,22 +83845,22 @@ breakaway-mousebites
 0
 0
 0
-weeb
+svg
 ae1
 
 
 0
 0
 0
-weeb
-ae2
+svg
+gnd1
 
 
 0
 0
 0
-weeb
-ae3
+svg
+gnd2
 
 
 0
@@ -83875,27 +83868,6 @@ ae3
 0
 weeb
 ae4
-
-
-0
-0
-0
-weeb
-dots1
-
-
-0
-0
-0
-weeb
-dots2
-
-
-0
-0
-0
-weeb
-dots3
 
 
 0
@@ -83910,6 +83882,13 @@ dots4
 0
 weeb
 qmk7fp
+
+
+0
+0
+0
+weeb
+waffle
 
 
 0
