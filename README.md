@@ -3,7 +3,7 @@
 ![PCB_LAYOUT](https://raw.githubusercontent.com/ItsWaffIe/waffle_corne/proton-c/images/pcb_new.png)
 
 * Thank you to [Drashna](https://github.com/drashna) & [Tzarc](https://github.com/tzarc) for all the help on this project :3
-## PCB Info.  
+## PCB Info. - Current not working (RGB needs redoing)  
 The [PCB](https://github.com/foostan/crkbd.git) has been modified to accomodate the STM32F303 based [Proton-C](https://qmk.fm/proton-c/) microcontroller. Some of these changes include: 
 * Moving the TRRS data line to the TX pin (A9). 
 * Moving the LED data line to a pin with a general purpose time or similar (ADC3-12/B0).
