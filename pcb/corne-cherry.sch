@@ -1131,42 +1131,42 @@ row3_r
 $Comp
 L power:GNDA #PWR017
 U 1 1 5C25F963
-P 11075 1225
-F 0 "#PWR017" H 11075 975 50  0001 C CNN
-F 1 "GNDA" H 11075 1075 50  0000 C CNN
-F 2 "" H 11075 1225 50  0001 C CNN
-F 3 "" H 11075 1225 50  0001 C CNN
-	1    11075 1225
+P 10105 1250
+F 0 "#PWR017" H 10105 1000 50  0001 C CNN
+F 1 "GNDA" H 10105 1100 50  0000 C CNN
+F 2 "" H 10105 1250 50  0001 C CNN
+F 3 "" H 10105 1250 50  0001 C CNN
+	1    10105 1250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GNDA #PWR018
 U 1 1 5C25F969
-P 9275 1425
-F 0 "#PWR018" H 9275 1175 50  0001 C CNN
-F 1 "GNDA" H 9275 1275 50  0000 C CNN
-F 2 "" H 9275 1425 50  0001 C CNN
-F 3 "" H 9275 1425 50  0001 C CNN
-	1    9275 1425
+P 8305 1450
+F 0 "#PWR018" H 8305 1200 50  0001 C CNN
+F 1 "GNDA" H 8305 1300 50  0000 C CNN
+F 2 "" H 8305 1450 50  0001 C CNN
+F 3 "" H 8305 1450 50  0001 C CNN
+	1    8305 1450
 	0    1    1    0   
 $EndComp
-Text GLabel 10875 1625 2    47   Input ~ 0
+Text GLabel 9905 1650 2    47   Input ~ 0
 col1_r
-Text GLabel 10875 1725 2    47   Input ~ 0
+Text GLabel 9905 1750 2    47   Input ~ 0
 col2_r
-Text GLabel 10875 1825 2    47   Input ~ 0
+Text GLabel 9905 1850 2    47   Input ~ 0
 col3_r
-Text GLabel 10875 1925 2    47   Input ~ 0
+Text GLabel 9905 1950 2    47   Input ~ 0
 col4_r
-Text GLabel 10875 2025 2    47   Input ~ 0
+Text GLabel 9905 2050 2    47   Input ~ 0
 col5_r
-Text GLabel 9475 2025 0    47   Input ~ 0
+Text GLabel 8505 2050 0    47   Input ~ 0
 row3_r
-Text GLabel 9475 1925 0    47   Input ~ 0
+Text GLabel 8505 1950 0    47   Input ~ 0
 row2_r
-Text GLabel 9475 1825 0    47   Input ~ 0
+Text GLabel 8505 1850 0    47   Input ~ 0
 row1_r
-Text GLabel 9475 1725 0    47   Input ~ 0
+Text GLabel 8505 1750 0    47   Input ~ 0
 row0_r
 $Comp
 L kbd:SW_PUSH RSW2
@@ -1190,9 +1190,9 @@ F 3 "" H 9975 3900 50  0001 C CNN
 	1    9975 3900
 	1    0    0    -1  
 $EndComp
-Text GLabel 9475 2225 0    47   Input ~ 0
+Text GLabel 8505 2250 0    47   Input ~ 0
 LED_r
-Text GLabel 9475 1125 0    47   Input ~ 0
+Text GLabel 8505 1150 0    47   Input ~ 0
 data_r
 $Comp
 L power:GNDA #PWR022
@@ -1207,17 +1207,16 @@ F 3 "" H 10750 3125 50  0001 C CNN
 $EndComp
 Text GLabel 10950 3075 2    60   Input ~ 0
 data_r
-Text GLabel 10875 1325 2    47   Input ~ 0
+Text GLabel 9905 1350 2    47   Input ~ 0
 reset_r
 Text GLabel 9375 3900 0    60   Input ~ 0
 reset_r
-NoConn ~ 9475 1225
-Text GLabel 10875 1525 2    47   Input ~ 0
+NoConn ~ 8505 1250
+Text GLabel 9905 1550 2    47   Input ~ 0
 col0_r
-NoConn ~ 10875 2125
-Text GLabel 9475 1525 0    47   Input ~ 0
+Text GLabel 8505 1550 0    47   Input ~ 0
 SDA_r
-Text GLabel 9475 1625 0    47   Input ~ 0
+Text GLabel 8505 1650 0    47   Input ~ 0
 SCL_r
 $Comp
 L Connector_Generic:Conn_01x04 J4
@@ -1245,7 +1244,7 @@ Text GLabel 9350 3075 2    47   Input ~ 0
 SCL_r
 Text GLabel 9350 3175 2    47   Input ~ 0
 SDA_r
-NoConn ~ 10875 1125
+NoConn ~ 9905 1150
 $Comp
 L kbd:MJ-4PP-9 J3
 U 1 1 5C25FA15
@@ -1266,12 +1265,12 @@ Wire Wire Line
 Wire Wire Line
 	12025 1700 12175 1700
 Wire Wire Line
-	9375 1325 9375 1425
-Connection ~ 9375 1425
+	8405 1350 8405 1450
+Connection ~ 8405 1450
 Wire Wire Line
-	9475 1325 9375 1325
+	8505 1350 8405 1350
 Wire Wire Line
-	9275 1425 9375 1425
+	8305 1450 8405 1450
 Connection ~ 12175 2900
 Connection ~ 12875 2900
 Connection ~ 13575 2900
@@ -1288,9 +1287,9 @@ Connection ~ 13575 1700
 Connection ~ 14275 1700
 Connection ~ 14975 1700
 Wire Wire Line
-	10875 1225 11075 1225
+	9905 1250 10105 1250
 Wire Wire Line
-	10875 1425 11075 1425
+	9905 1450 10105 1450
 Wire Wire Line
 	10650 3075 10950 3075
 Wire Wire Line
@@ -1306,7 +1305,7 @@ Wire Wire Line
 Wire Wire Line
 	14975 3500 15675 3500
 Wire Wire Line
-	9375 1425 9475 1425
+	8405 1450 8505 1450
 Wire Wire Line
 	12175 2900 12875 2900
 Wire Wire Line
@@ -1361,12 +1360,12 @@ Wire Wire Line
 $Comp
 L power:VDD #PWR019
 U 1 1 5C714C7F
-P 11075 1425
-F 0 "#PWR019" H 11075 1275 50  0001 C CNN
-F 1 "VDD" V 11092 1553 50  0000 L CNN
-F 2 "" H 11075 1425 50  0001 C CNN
-F 3 "" H 11075 1425 50  0001 C CNN
-	1    11075 1425
+P 10105 1450
+F 0 "#PWR019" H 10105 1300 50  0001 C CNN
+F 1 "VDD" V 10122 1578 50  0000 L CNN
+F 2 "" H 10105 1450 50  0001 C CNN
+F 3 "" H 10105 1450 50  0001 C CNN
+	1    10105 1450
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1448,7 +1447,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 1125 5000 2475
 Wire Wire Line
-	11575 1250 11575 2600
+	11575 1250 11575 1400
 Wire Wire Line
 	12275 1250 12275 2600
 Wire Wire Line
@@ -2675,15 +2674,14 @@ $EndComp
 $Comp
 L kbd:ProMicro U2
 U 1 1 5C25F857
-P 10175 1675
-F 0 "U2" H 10175 2625 60  0000 C CNN
-F 1 "ProMicro" H 10175 1125 60  0000 C CNN
-F 2 "kbd:ProMicro_v3" H 10275 625 60  0001 C CNN
-F 3 "" H 10275 625 60  0000 C CNN
-	1    10175 1675
+P 9205 1700
+F 0 "U2" H 9205 2650 60  0000 C CNN
+F 1 "ProMicro" H 9205 1150 60  0000 C CNN
+F 2 "kbd:ProMicro_v3" H 9305 650 60  0001 C CNN
+F 3 "" H 9305 650 60  0000 C CNN
+	1    9205 1700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10875 2225
 NoConn ~ 5718 9687
 NoConn ~ 5470 8376
 NoConn ~ 6300 8231
@@ -2754,7 +2752,7 @@ F 3 "" H 7467 8158 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7467 8158 7467 8302
-Text GLabel 9475 2125 0    50   Input ~ 0
+Text GLabel 8505 2150 0    50   Input ~ 0
 B1_AUDIO_R
 Text GLabel 1712 7647 2    50   Input ~ 0
 B1_AUDIO
@@ -2891,10 +2889,10 @@ Wire Wire Line
 Wire Wire Line
 	2420 785  2420 885 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0119
 U 1 1 60823858
 P 2420 885
-F 0 "#PWR?" H 2420 635 50  0001 C CNN
+F 0 "#PWR0119" H 2420 635 50  0001 C CNN
 F 1 "GND" H 2425 712 50  0000 C CNN
 F 2 "" H 2420 885 50  0001 C CNN
 F 3 "" H 2420 885 50  0001 C CNN
@@ -2921,4 +2919,50 @@ Wire Wire Line
 Wire Wire Line
 	4200 685  4200 1275
 Connection ~ 4200 1275
+Text GLabel 9905 2150 2    50   Input ~ 0
+ENC_A_R
+Text GLabel 9905 2250 2    50   Input ~ 0
+ENC_B_R
+$Comp
+L Device:Rotary_Encoder_Switch SW44
+U 1 1 60786552
+P 11045 930
+F 0 "SW44" H 11045 1297 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 11045 1206 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_EC11-no-legs" H 10895 1090 50  0001 C CNN
+F 3 "~" H 11045 1190 50  0001 C CNN
+	1    11045 930 
+	1    0    0    -1  
+$EndComp
+Text GLabel 10745 1030 0    50   Input ~ 0
+ENC_B_R
+Text GLabel 10745 830  0    50   Input ~ 0
+ENC_A_R
+Wire Wire Line
+	10745 930  10150 930 
+Wire Wire Line
+	10150 930  10150 1030
+$Comp
+L power:GNDA #PWR0120
+U 1 1 607DCD43
+P 10150 1030
+F 0 "#PWR0120" H 10150 780 50  0001 C CNN
+F 1 "GNDA" V 10060 1020 50  0000 C CNN
+F 2 "" H 10150 1030 50  0001 C CNN
+F 3 "" H 10150 1030 50  0001 C CNN
+	1    10150 1030
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11345 830  12175 830 
+Wire Wire Line
+	12175 830  12175 1400
+Connection ~ 12175 1400
+Wire Wire Line
+	11345 1030 11345 1400
+Wire Wire Line
+	11345 1400 11575 1400
+Connection ~ 11575 1400
+Wire Wire Line
+	11575 1400 11575 2600
 $EndSCHEMATC
