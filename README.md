@@ -11,7 +11,7 @@ The [PCB](https://github.com/foostan/crkbd.git) has been modified to accomodate 
 ### Other changes that weren't required:
 * Redo RGB by removing underglow and adding better support (jumpers) for underglow RGB strips. (needs testing)
 * Added AST1109MLTRQ speaker footprints. (needs testing) 
-* Add EC-11 rotary encoder positions. 
+* Added two EC-11 rotary encoder positions. 
 
 ## Firmware Info. 
 * Remove the `rules.mk` file in `crkbd/rev1`
