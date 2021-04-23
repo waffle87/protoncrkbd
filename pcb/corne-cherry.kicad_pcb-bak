@@ -98,7 +98,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "v2_gerbers/"))
+      (outputdirectory "../../../Downloads/waffle_corne2_gerber/"))
   )
 
   (net 0 "")

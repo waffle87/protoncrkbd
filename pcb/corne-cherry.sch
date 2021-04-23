@@ -2661,8 +2661,6 @@ F 3 "" H 9305 650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5718 9687
-NoConn ~ 5470 8376
-NoConn ~ 6300 8231
 Text GLabel 5550 4150 0    47   Input ~ 0
 LED
 $Comp
