@@ -1172,8 +1172,6 @@ $EndComp
 Text GLabel 5230 10200 1    47   Input ~ 0
 LED
 Wire Wire Line
-	4870 10400 5080 10400
-Wire Wire Line
 	5010 10700 5010 10615
 $Comp
 L power:VCC #PWR0113
@@ -1317,8 +1315,6 @@ F 3 "" H 10025 10100 50  0001 C CNN
 	1    10025 10100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7785 10385 7905 10385
 Wire Wire Line
 	6775 10685 6055 10685
 Connection ~ 6775 10685
@@ -3080,4 +3076,8 @@ Wire Notes Line
 	2110 3320 2110 815 
 Text Notes 2120 800  0    118  ~ 0
 Misc
+Wire Wire Line
+	7785 10385 7905 10385
+Wire Wire Line
+	5080 10400 4870 10400
 $EndSCHEMATC
