@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name kbd)(type Legacy)(uri ${KIPRJMOD}/kbd/kicad-symbols/kbd.lib)(options "")(descr ""))
   (lib (name keebio)(type Legacy)(uri /home/jsangdahl/Documents/waffle_pcbs/keebio-components/keebio.lib)(options "")(descr ""))
+  (lib (name corne-cherry-rescue)(type Legacy)(uri ${KIPRJMOD}/corne-cherry-rescue.lib)(options "")(descr ""))
 )
