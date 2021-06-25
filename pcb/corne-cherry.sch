@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR07
+L corne-cherry-rescue:GND-power #PWR07
 U 1 1 5A5E8A2C
 P 10565 1715
 F 0 "#PWR07" H 10565 1465 50  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 10565 1715 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR08
+L corne-cherry-rescue:GND-power #PWR08
 U 1 1 5A5E8E4C
 P 8765 1915
 F 0 "#PWR08" H 8765 1665 50  0001 C CNN
@@ -36,7 +36,7 @@ F 3 "" H 8765 1915 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR04
+L corne-cherry-rescue:GND-power #PWR04
 U 1 1 5A5E9252
 P 2650 2670
 F 0 "#PWR04" H 2650 2420 50  0001 C CNN
@@ -47,7 +47,7 @@ F 3 "" H 2650 2670 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR05
+L corne-cherry-rescue:VCC-power #PWR05
 U 1 1 5A5E9332
 P 2650 2160
 F 0 "#PWR05" H 2650 2010 50  0001 C CNN
@@ -58,7 +58,7 @@ F 3 "" H 2650 2160 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG02
+L corne-cherry-rescue:PWR_FLAG-power #FLG02
 U 1 1 5A5E94F5
 P 2650 2160
 F 0 "#FLG02" H 2650 2235 50  0001 C CNN
@@ -69,7 +69,7 @@ F 3 "" H 2650 2160 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG01
+L corne-cherry-rescue:PWR_FLAG-power #FLG01
 U 1 1 5A5E9623
 P 2650 2670
 F 0 "#FLG01" H 2650 2745 50  0001 C CNN
@@ -109,7 +109,7 @@ F 3 "" H 6925 2675 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
+L corne-cherry-rescue:GND-power #PWR06
 U 1 1 5A5EBDFF
 P 7225 2675
 F 0 "#PWR06" H 7225 2425 50  0001 C CNN
@@ -120,7 +120,7 @@ F 3 "" H 7225 2675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR010
+L corne-cherry-rescue:VCC-power #PWR010
 U 1 1 5A76093E
 P 4210 1200
 F 0 "#PWR010" H 4210 1050 50  0001 C CNN
@@ -131,7 +131,7 @@ F 3 "" H 4210 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR011
+L corne-cherry-rescue:GND-power #PWR011
 U 1 1 5A760ADB
 P 4210 1450
 F 0 "#PWR011" H 4210 1200 50  0001 C CNN
@@ -153,7 +153,7 @@ SDA
 Text GLabel 8965 2115 0    47   Input ~ 0
 SCL
 $Comp
-L Connector_Generic:Conn_01x04 J2
+L corne-cherry-rescue:Conn_01x04-Connector_Generic J2
 U 1 1 5A91DA4B
 P 6325 1340
 F 0 "J2" H 6325 990 50  0000 C CNN
@@ -164,7 +164,7 @@ F 3 "" H 6325 1340 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VCC #PWR012
+L corne-cherry-rescue:VCC-power #PWR012
 U 1 1 5A923DD7
 P 6875 1240
 F 0 "#PWR012" H 6875 1090 50  0001 C CNN
@@ -179,7 +179,7 @@ SCL
 Text GLabel 6525 1440 2    47   Input ~ 0
 SDA
 $Comp
-L power:VCC #PWR09
+L corne-cherry-rescue:VCC-power #PWR09
 U 1 1 5A5E8CD1
 P 10565 1915
 F 0 "#PWR09" H 10565 1765 50  0001 C CNN
@@ -225,7 +225,7 @@ Wire Wire Line
 Wire Wire Line
 	8865 1915 8965 1915
 $Comp
-L power:GNDA #PWR017
+L corne-cherry-rescue:GNDA-power #PWR017
 U 1 1 5C25F963
 P 12885 1715
 F 0 "#PWR017" H 12885 1465 50  0001 C CNN
@@ -236,7 +236,7 @@ F 3 "" H 12885 1715 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDA #PWR018
+L corne-cherry-rescue:GNDA-power #PWR018
 U 1 1 5C25F969
 P 11085 1915
 F 0 "#PWR018" H 11085 1665 50  0001 C CNN
@@ -276,7 +276,7 @@ F 3 "" H 7000 3105 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR020
+L corne-cherry-rescue:GNDA-power #PWR020
 U 1 1 5C25F97E
 P 7300 3105
 F 0 "#PWR020" H 7300 2855 50  0001 C CNN
@@ -291,7 +291,7 @@ LED_r
 Text GLabel 11285 1615 0    47   Input ~ 0
 data_r
 $Comp
-L power:GNDA #PWR022
+L corne-cherry-rescue:GNDA-power #PWR022
 U 1 1 5C25F992
 P 2970 1450
 F 0 "#PWR022" H 2970 1200 50  0001 C CNN
@@ -315,7 +315,7 @@ SDA_r
 Text GLabel 11285 2115 0    47   Input ~ 0
 SCL_r
 $Comp
-L Connector_Generic:Conn_01x04 J4
+L corne-cherry-rescue:Conn_01x04-Connector_Generic J4
 U 1 1 5C25F9A2
 P 5125 1335
 F 0 "J4" H 5125 985 50  0000 C CNN
@@ -326,7 +326,7 @@ F 3 "" H 5125 1335 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDA #PWR024
+L corne-cherry-rescue:GNDA-power #PWR024
 U 1 1 5C25F9D8
 P 5700 1310
 F 0 "#PWR024" H 5700 1060 50  0001 C CNN
@@ -380,7 +380,7 @@ NoConn ~ 2870 1250
 Wire Wire Line
 	6525 1240 6875 1240
 $Comp
-L power:GND #PWR013
+L corne-cherry-rescue:GND-power #PWR013
 U 1 1 5A92390A
 P 6825 1315
 F 0 "#PWR013" H 6825 1065 50  0001 C CNN
@@ -395,7 +395,7 @@ Wire Wire Line
 Wire Wire Line
 	6825 1140 6525 1140
 $Comp
-L power:VDD #PWR019
+L corne-cherry-rescue:VDD-power #PWR019
 U 1 1 5C714C7F
 P 12885 1915
 F 0 "#PWR019" H 12885 1765 50  0001 C CNN
@@ -406,7 +406,7 @@ F 3 "" H 12885 1915 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VDD #PWR023
+L corne-cherry-rescue:VDD-power #PWR023
 U 1 1 5C71DE62
 P 5775 1235
 F 0 "#PWR023" H 5775 1085 50  0001 C CNN
@@ -417,7 +417,7 @@ F 3 "" H 5775 1235 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VDD #PWR021
+L corne-cherry-rescue:VDD-power #PWR021
 U 1 1 5C72B5F9
 P 2970 1200
 F 0 "#PWR021" H 2970 1050 50  0001 C CNN
@@ -428,7 +428,7 @@ F 3 "" H 2970 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG04
+L corne-cherry-rescue:PWR_FLAG-power #FLG04
 U 1 1 5C73013A
 P 4500 2515
 F 0 "#FLG04" H 4500 2590 50  0001 C CNN
@@ -439,7 +439,7 @@ F 3 "" H 4500 2515 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VDD #PWR016
+L corne-cherry-rescue:VDD-power #PWR016
 U 1 1 5C7385F8
 P 4500 2515
 F 0 "#PWR016" H 4500 2365 50  0001 C CNN
@@ -450,7 +450,7 @@ F 3 "" H 4500 2515 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR015
+L corne-cherry-rescue:GNDA-power #PWR015
 U 1 1 5C754593
 P 4495 2995
 F 0 "#PWR015" H 4495 2745 50  0001 C CNN
@@ -461,7 +461,7 @@ F 3 "" H 4495 2995 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG03
+L corne-cherry-rescue:PWR_FLAG-power #FLG03
 U 1 1 5C754599
 P 4495 2995
 F 0 "#FLG03" H 4495 3070 50  0001 C CNN
@@ -482,7 +482,7 @@ LED
 Text GLabel 8965 1615 0    47   Input ~ 0
 data
 $Comp
-L Device:R_Small R1
+L corne-cherry-rescue:R_Small-Device R1
 U 1 1 5FE4011F
 P 3295 2025
 F 0 "R1" H 3354 2071 50  0000 L CNN
@@ -493,7 +493,7 @@ F 3 "~" H 3295 2025 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R2
+L corne-cherry-rescue:R_Small-Device R2
 U 1 1 5FE45D00
 P 3690 2030
 F 0 "R2" H 3749 2076 50  0000 L CNN
@@ -510,7 +510,7 @@ Wire Wire Line
 Wire Wire Line
 	3690 1930 3690 1830
 $Comp
-L power:VCC #PWR0101
+L corne-cherry-rescue:VCC-power #PWR0101
 U 1 1 5FE78666
 P 3295 1825
 F 0 "#PWR0101" H 3295 1675 50  0001 C CNN
@@ -521,7 +521,7 @@ F 3 "" H 3295 1825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR0103
+L corne-cherry-rescue:VDD-power #PWR0103
 U 1 1 5FF338DB
 P 3690 1830
 F 0 "#PWR0103" H 3690 1680 50  0001 C CNN
@@ -538,7 +538,7 @@ Wire Wire Line
 Wire Wire Line
 	4680 1985 4430 1985
 $Comp
-L power:VCC #PWR0102
+L corne-cherry-rescue:VCC-power #PWR0102
 U 1 1 5FEFEA24
 P 4430 1985
 F 0 "#PWR0102" H 4430 1835 50  0001 C CNN
@@ -549,7 +549,7 @@ F 3 "" H 4430 1985 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0104
+L corne-cherry-rescue:GND-power #PWR0104
 U 1 1 5FF0058A
 P 4180 1935
 F 0 "#PWR0104" H 4180 1685 50  0001 C CNN
@@ -568,7 +568,7 @@ Wire Wire Line
 Text GLabel 6055 2085 0    47   Input ~ 0
 LED_r
 $Comp
-L Connector_Generic:Conn_01x03 P3
+L corne-cherry-rescue:Conn_01x03-Connector_Generic P3
 U 1 1 5FF01F81
 P 6255 1985
 F 0 "P3" H 6335 2027 50  0000 L CNN
@@ -579,7 +579,7 @@ F 3 "~" H 6255 1985 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0106
+L corne-cherry-rescue:GNDA-power #PWR0106
 U 1 1 606161F4
 P 5555 1935
 F 0 "#PWR0106" H 5555 1685 50  0001 C CNN
@@ -590,7 +590,7 @@ F 3 "" H 5555 1935 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR0105
+L corne-cherry-rescue:VDD-power #PWR0105
 U 1 1 6061D8B6
 P 5755 1985
 F 0 "#PWR0105" H 5755 1835 50  0001 C CNN
@@ -625,7 +625,7 @@ $EndComp
 Text GLabel 4680 2085 0    47   Input ~ 0
 LED
 $Comp
-L Connector_Generic:Conn_01x03 P1
+L corne-cherry-rescue:Conn_01x03-Connector_Generic P1
 U 1 1 5FEC8D74
 P 4880 1985
 F 0 "P1" H 4960 2027 50  0000 L CNN
@@ -636,7 +636,7 @@ F 3 "~" H 4880 1985 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R3
+L corne-cherry-rescue:R_Small-Device R3
 U 1 1 6062157F
 P 5327 3102
 F 0 "R3" V 5131 3102 50  0000 C CNN
@@ -651,7 +651,7 @@ Wire Wire Line
 Wire Wire Line
 	5098 3102 5098 3012
 $Comp
-L power:VCC #PWR0117
+L corne-cherry-rescue:VCC-power #PWR0117
 U 1 1 606BAF80
 P 5098 3012
 F 0 "#PWR0117" H 5098 2862 50  0001 C CNN
@@ -662,7 +662,7 @@ F 3 "" H 5098 3012 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R4
+L corne-cherry-rescue:R_Small-Device R4
 U 1 1 606DACBD
 P 5260 2677
 F 0 "R4" V 5064 2677 50  0000 C CNN
@@ -677,7 +677,7 @@ B1_AUDIO_R
 Wire Wire Line
 	5160 2677 4987 2677
 $Comp
-L power:VDD #PWR0118
+L corne-cherry-rescue:VDD-power #PWR0118
 U 1 1 606F170B
 P 4987 2533
 F 0 "#PWR0118" H 4987 2383 50  0001 C CNN
@@ -708,7 +708,7 @@ ENC_B_R
 Text GLabel 3690 2130 3    47   Input ~ 0
 data_r
 $Comp
-L Connector:Conn_01x01_Male J5
+L corne-cherry-rescue:Conn_01x01_Male-Connector J5
 U 1 1 606C1E95
 P 5230 10800
 F 0 "J5" V 5175 10845 50  0000 R CNN
@@ -1024,7 +1024,7 @@ Connection ~ 4570 8010
 Wire Wire Line
 	4570 8010 4890 8010
 $Comp
-L power:VCC #PWR0107
+L corne-cherry-rescue:VCC-power #PWR0107
 U 1 1 607BF7C1
 P 4890 7930
 F 0 "#PWR0107" H 4890 7780 50  0001 C CNN
@@ -1035,7 +1035,7 @@ F 3 "" H 4890 7930 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0108
+L corne-cherry-rescue:GND-power #PWR0108
 U 1 1 607C08F0
 P 4890 8705
 F 0 "#PWR0108" H 4890 8455 50  0001 C CNN
@@ -1137,7 +1137,7 @@ Wire Wire Line
 Wire Wire Line
 	4570 10050 4970 10050
 $Comp
-L power:VCC #PWR0109
+L corne-cherry-rescue:VCC-power #PWR0109
 U 1 1 60A1725F
 P 4980 9265
 F 0 "#PWR0109" H 4980 9115 50  0001 C CNN
@@ -1158,7 +1158,7 @@ Wire Wire Line
 Wire Wire Line
 	4270 9700 4150 9700
 $Comp
-L Jumper:SolderJumper_3_Open JP1
+L corne-cherry-rescue:SolderJumper_3_Open-Jumper JP1
 U 1 1 60654C8B
 P 5230 10400
 F 0 "JP1" H 5160 10505 50  0000 L CNN
@@ -1173,7 +1173,7 @@ LED
 Wire Wire Line
 	5010 10700 5010 10615
 $Comp
-L power:VCC #PWR0113
+L corne-cherry-rescue:VCC-power #PWR0113
 U 1 1 6098BE6F
 P 5010 10615
 F 0 "#PWR0113" H 5010 10465 50  0001 C CNN
@@ -1184,7 +1184,7 @@ F 3 "" H 5010 10615 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0110
+L corne-cherry-rescue:GND-power #PWR0110
 U 1 1 60A183F3
 P 4970 10110
 F 0 "#PWR0110" H 4970 9860 50  0001 C CNN
@@ -1214,7 +1214,7 @@ Wire Wire Line
 Wire Wire Line
 	4890 8010 4890 7930
 $Comp
-L power:VDD #PWR0116
+L corne-cherry-rescue:VDD-power #PWR0116
 U 1 1 60E14086
 P 10230 7880
 F 0 "#PWR0116" H 10230 7730 50  0001 C CNN
@@ -1230,7 +1230,7 @@ Wire Wire Line
 Wire Wire Line
 	9625 7995 10230 7995
 $Comp
-L power:GNDA #PWR0114
+L corne-cherry-rescue:GNDA-power #PWR0114
 U 1 1 60DF6BE8
 P 10020 8815
 F 0 "#PWR0114" H 10020 8565 50  0001 C CNN
@@ -1245,7 +1245,7 @@ Wire Wire Line
 Wire Wire Line
 	9625 8635 10020 8635
 $Comp
-L power:VDD #PWR0112
+L corne-cherry-rescue:VDD-power #PWR0112
 U 1 1 60DCBB52
 P 10020 9225
 F 0 "#PWR0112" H 10020 9075 50  0001 C CNN
@@ -1275,7 +1275,7 @@ Wire Wire Line
 Wire Wire Line
 	10025 10100 10025 10035
 $Comp
-L Jumper:SolderJumper_3_Open JP2
+L corne-cherry-rescue:SolderJumper_3_Open-Jumper JP2
 U 1 1 606B8CED
 P 8055 10385
 F 0 "JP2" V 8009 10453 50  0000 L CNN
@@ -1286,7 +1286,7 @@ F 3 "~" H 8055 10385 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VDD #PWR0111
+L corne-cherry-rescue:VDD-power #PWR0111
 U 1 1 6082E68A
 P 7915 10600
 F 0 "#PWR0111" H 7915 10450 50  0001 C CNN
@@ -1303,7 +1303,7 @@ Wire Wire Line
 Text GLabel 8055 10185 2    47   Input ~ 0
 LED_r
 $Comp
-L power:GNDA #PWR0115
+L corne-cherry-rescue:GNDA-power #PWR0115
 U 1 1 60878D51
 P 10025 10100
 F 0 "#PWR0115" H 10025 9850 50  0001 C CNN
@@ -1477,7 +1477,7 @@ Wire Wire Line
 Wire Wire Line
 	6055 8635 6775 8635
 $Comp
-L Connector:Conn_01x01_Male J6
+L corne-cherry-rescue:Conn_01x01_Male-Connector J6
 U 1 1 605E67F8
 P 8055 10785
 F 0 "J6" V 7975 10830 50  0000 R CNN
@@ -1739,7 +1739,7 @@ Controllers
 Text GLabel 4410 1400 2    60   Input ~ 0
 data
 $Comp
-L Device:Rotary_Encoder_Switch SW44
+L corne-cherry-rescue:Rotary_Encoder_Switch-Device SW44
 U 1 1 60786552
 P 6260 4360
 F 0 "SW44" H 6640 4560 50  0000 C CNN
@@ -1803,7 +1803,7 @@ F 3 "" H 7790 4830 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D23
+L corne-cherry-rescue:D-Device D23
 U 1 1 5C25F863
 P 8090 4980
 F 0 "D23" H 8090 5080 50  0000 C CNN
@@ -1826,7 +1826,7 @@ F 3 "" H 8490 4830 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D24
+L corne-cherry-rescue:D-Device D24
 U 1 1 5C25F86F
 P 8790 4980
 F 0 "D24" H 8790 5080 50  0000 C CNN
@@ -1871,7 +1871,7 @@ F 3 "" H 10590 4830 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D25
+L corne-cherry-rescue:D-Device D25
 U 1 1 5C25F887
 P 9490 4980
 F 0 "D25" H 9490 5080 50  0000 C CNN
@@ -1883,7 +1883,7 @@ F 4 "C402213" H 9490 4980 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D26
+L corne-cherry-rescue:D-Device D26
 U 1 1 5C25F88D
 P 10190 4980
 F 0 "D26" H 10190 5080 50  0000 C CNN
@@ -1895,7 +1895,7 @@ F 4 "C402213" H 10190 4980 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D27
+L corne-cherry-rescue:D-Device D27
 U 1 1 5C25F893
 P 10890 4980
 F 0 "D27" H 10890 5080 50  0000 C CNN
@@ -1918,7 +1918,7 @@ F 3 "" H 7090 4830 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D22
+L corne-cherry-rescue:D-Device D22
 U 1 1 5C25F89F
 P 7390 4980
 F 0 "D22" H 7390 5080 50  0000 C CNN
@@ -1941,7 +1941,7 @@ F 3 "" H 7790 5430 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D29
+L corne-cherry-rescue:D-Device D29
 U 1 1 5C25F8AB
 P 8090 5580
 F 0 "D29" H 8090 5680 50  0000 C CNN
@@ -1964,7 +1964,7 @@ F 3 "" H 8490 5430 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D30
+L corne-cherry-rescue:D-Device D30
 U 1 1 5C25F8B7
 P 8790 5580
 F 0 "D30" H 8790 5680 50  0000 C CNN
@@ -2009,7 +2009,7 @@ F 3 "" H 10590 5430 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D31
+L corne-cherry-rescue:D-Device D31
 U 1 1 5C25F8CF
 P 9490 5580
 F 0 "D31" H 9490 5680 50  0000 C CNN
@@ -2021,7 +2021,7 @@ F 4 "C402213" H 9490 5580 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D32
+L corne-cherry-rescue:D-Device D32
 U 1 1 5C25F8D5
 P 10190 5580
 F 0 "D32" H 10190 5680 50  0000 C CNN
@@ -2033,7 +2033,7 @@ F 4 "C402213" H 10190 5580 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D33
+L corne-cherry-rescue:D-Device D33
 U 1 1 5C25F8DB
 P 10890 5580
 F 0 "D33" H 10890 5680 50  0000 C CNN
@@ -2056,7 +2056,7 @@ F 3 "" H 7090 5430 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D28
+L corne-cherry-rescue:D-Device D28
 U 1 1 5C25F8E7
 P 7390 5580
 F 0 "D28" H 7390 5680 50  0000 C CNN
@@ -2079,7 +2079,7 @@ F 3 "" H 7790 6030 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D35
+L corne-cherry-rescue:D-Device D35
 U 1 1 5C25F8F3
 P 8090 6180
 F 0 "D35" H 8090 6280 50  0000 C CNN
@@ -2102,7 +2102,7 @@ F 3 "" H 8490 6030 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D36
+L corne-cherry-rescue:D-Device D36
 U 1 1 5C25F8FF
 P 8790 6180
 F 0 "D36" H 8790 6280 50  0000 C CNN
@@ -2147,7 +2147,7 @@ F 3 "" H 10590 6030 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D37
+L corne-cherry-rescue:D-Device D37
 U 1 1 5C25F917
 P 9490 6180
 F 0 "D37" H 9490 6280 50  0000 C CNN
@@ -2159,7 +2159,7 @@ F 4 "C402213" H 9490 6180 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D38
+L corne-cherry-rescue:D-Device D38
 U 1 1 5C25F91D
 P 10190 6180
 F 0 "D38" H 10190 6280 50  0000 C CNN
@@ -2171,7 +2171,7 @@ F 4 "C402213" H 10190 6180 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D39
+L corne-cherry-rescue:D-Device D39
 U 1 1 5C25F923
 P 10890 6180
 F 0 "D39" H 10890 6280 50  0000 C CNN
@@ -2194,7 +2194,7 @@ F 3 "" H 7090 6030 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D34
+L corne-cherry-rescue:D-Device D34
 U 1 1 5C25F92F
 P 7390 6180
 F 0 "D34" H 7390 6280 50  0000 C CNN
@@ -2217,7 +2217,7 @@ F 3 "" H 9890 6630 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D41
+L corne-cherry-rescue:D-Device D41
 U 1 1 5C25F93B
 P 10190 6780
 F 0 "D41" H 10190 6880 50  0000 C CNN
@@ -2240,7 +2240,7 @@ F 3 "" H 10590 6630 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D42
+L corne-cherry-rescue:D-Device D42
 U 1 1 5C25F947
 P 10890 6780
 F 0 "D42" H 10890 6880 50  0000 C CNN
@@ -2263,7 +2263,7 @@ F 3 "" H 9190 6630 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D40
+L corne-cherry-rescue:D-Device D40
 U 1 1 5C25F953
 P 9490 6780
 F 0 "D40" H 9490 6880 50  0000 C CNN
@@ -2374,7 +2374,7 @@ Wire Wire Line
 Wire Wire Line
 	5365 4360 5365 4460
 $Comp
-L power:GNDA #PWR0120
+L corne-cherry-rescue:GNDA-power #PWR0120
 U 1 1 607DCD43
 P 5365 4460
 F 0 "#PWR0120" H 5365 4210 50  0001 C CNN
@@ -2505,7 +2505,7 @@ F 3 "" H 2305 4805 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D1
+L corne-cherry-rescue:D-Device D1
 U 1 1 5A5E2B5B
 P 2605 4955
 F 0 "D1" H 2605 5055 50  0000 C CNN
@@ -2594,7 +2594,7 @@ F 3 "" H 3005 6005 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D14
+L corne-cherry-rescue:D-Device D14
 U 1 1 5A5E35B7
 P 3305 6155
 F 0 "D14" H 3305 6255 50  0000 C CNN
@@ -2617,7 +2617,7 @@ F 3 "" H 3705 6005 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D15
+L corne-cherry-rescue:D-Device D15
 U 1 1 5A5E35C3
 P 4005 6155
 F 0 "D15" H 4005 6255 50  0000 C CNN
@@ -2662,7 +2662,7 @@ F 3 "" H 5805 6005 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D16
+L corne-cherry-rescue:D-Device D16
 U 1 1 5A5E35E1
 P 4705 6155
 F 0 "D16" H 4705 6255 50  0000 C CNN
@@ -2674,7 +2674,7 @@ F 4 "C402213" H 4705 6155 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D17
+L corne-cherry-rescue:D-Device D17
 U 1 1 5A5E35E7
 P 5405 6155
 F 0 "D17" H 5405 6255 50  0000 C CNN
@@ -2686,7 +2686,7 @@ F 4 "C402213" H 5405 6155 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D18
+L corne-cherry-rescue:D-Device D18
 U 1 1 5A5E35ED
 P 6105 6155
 F 0 "D18" H 6105 6255 50  0000 C CNN
@@ -2709,7 +2709,7 @@ F 3 "" H 2305 6005 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D13
+L corne-cherry-rescue:D-Device D13
 U 1 1 5A5E35FF
 P 2605 6155
 F 0 "D13" H 2605 6255 50  0000 C CNN
@@ -2732,7 +2732,7 @@ F 3 "" H 5105 6605 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D20
+L corne-cherry-rescue:D-Device D20
 U 1 1 5A5E37AA
 P 5405 6755
 F 0 "D20" H 5405 6855 50  0000 C CNN
@@ -2755,7 +2755,7 @@ F 3 "" H 5805 6605 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D21
+L corne-cherry-rescue:D-Device D21
 U 1 1 5A5E37B6
 P 6105 6755
 F 0 "D21" H 6105 6855 50  0000 C CNN
@@ -2778,7 +2778,7 @@ F 3 "" H 4405 6605 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D19
+L corne-cherry-rescue:D-Device D19
 U 1 1 5A5E37F2
 P 4705 6755
 F 0 "D19" H 4705 6855 50  0000 C CNN
@@ -2850,7 +2850,7 @@ Wire Wire Line
 Wire Wire Line
 	4105 4655 4105 4805
 $Comp
-L Device:D D12
+L corne-cherry-rescue:D-Device D12
 U 1 1 5A5E2D62
 P 6105 5555
 F 0 "D12" H 6105 5655 50  0000 C CNN
@@ -2865,7 +2865,7 @@ Wire Wire Line
 	5405 5705 6105 5705
 Connection ~ 5405 5705
 $Comp
-L Device:D D11
+L corne-cherry-rescue:D-Device D11
 U 1 1 5A5E2D5C
 P 5405 5555
 F 0 "D11" H 5405 5655 50  0000 C CNN
@@ -2880,7 +2880,7 @@ Wire Wire Line
 	4705 5705 5405 5705
 Connection ~ 4705 5705
 $Comp
-L Device:D D10
+L corne-cherry-rescue:D-Device D10
 U 1 1 5A5E2D56
 P 4705 5555
 F 0 "D10" H 4705 5655 50  0000 C CNN
@@ -2895,7 +2895,7 @@ Wire Wire Line
 	4005 5705 4705 5705
 Connection ~ 4005 5705
 $Comp
-L Device:D D9
+L corne-cherry-rescue:D-Device D9
 U 1 1 5A5E2D38
 P 4005 5555
 F 0 "D9" H 4005 5655 50  0000 C CNN
@@ -2910,7 +2910,7 @@ Wire Wire Line
 	3305 5705 4005 5705
 Connection ~ 3305 5705
 $Comp
-L Device:D D8
+L corne-cherry-rescue:D-Device D8
 U 1 1 5A5E2D2C
 P 3305 5555
 F 0 "D8" H 3305 5655 50  0000 C CNN
@@ -2927,7 +2927,7 @@ Wire Wire Line
 	2455 5705 2605 5705
 Connection ~ 2605 5705
 $Comp
-L Device:D D7
+L corne-cherry-rescue:D-Device D7
 U 1 1 5A5E2D74
 P 2605 5555
 F 0 "D7" H 2605 5655 50  0000 C CNN
@@ -2939,7 +2939,7 @@ F 4 "C402213" H 2605 5555 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D6
+L corne-cherry-rescue:D-Device D6
 U 1 1 5A5E2A33
 P 6105 4955
 F 0 "D6" H 6105 5055 50  0000 C CNN
@@ -2954,7 +2954,7 @@ Wire Wire Line
 	5405 5105 6105 5105
 Connection ~ 5405 5105
 $Comp
-L Device:D D5
+L corne-cherry-rescue:D-Device D5
 U 1 1 5A5E29F2
 P 5405 4955
 F 0 "D5" H 5405 5055 50  0000 C CNN
@@ -2969,7 +2969,7 @@ Wire Wire Line
 	4705 5105 5405 5105
 Connection ~ 4705 5105
 $Comp
-L Device:D D4
+L corne-cherry-rescue:D-Device D4
 U 1 1 5A5E29BF
 P 4705 4955
 F 0 "D4" H 4705 5055 50  0000 C CNN
@@ -2984,7 +2984,7 @@ Wire Wire Line
 	4005 5105 4705 5105
 Connection ~ 4005 5105
 $Comp
-L Device:D D3
+L corne-cherry-rescue:D-Device D3
 U 1 1 5A5E281F
 P 4005 4955
 F 0 "D3" H 4005 5055 50  0000 C CNN
@@ -3001,7 +3001,7 @@ Wire Wire Line
 	2605 5105 3305 5105
 Connection ~ 3305 5105
 $Comp
-L Device:D D2
+L corne-cherry-rescue:D-Device D2
 U 1 1 5A5E26C6
 P 3305 4955
 F 0 "D2" H 3305 5055 50  0000 C CNN
@@ -3013,7 +3013,7 @@ F 4 "C402213" H 3305 4955 50  0001 C CNN "LCSC "
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Rotary_Encoder_Switch SW43
+L corne-cherry-rescue:Rotary_Encoder_Switch-Device SW43
 U 1 1 6078866B
 P 1540 4315
 F 0 "SW43" H 1835 4575 50  0000 L CNN
@@ -3042,7 +3042,7 @@ ENC_B
 Text GLabel 1240 4215 0    50   Input ~ 0
 ENC_A
 $Comp
-L power:GND #PWR0119
+L corne-cherry-rescue:GND-power #PWR0119
 U 1 1 60823858
 P 825 4415
 F 0 "#PWR0119" H 825 4165 50  0001 C CNN
@@ -3077,7 +3077,7 @@ Wire Wire Line
 Wire Wire Line
 	5080 10400 4870 10400
 $Comp
-L Connector_Generic:Conn_01x05 J7
+L corne-cherry-rescue:Conn_01x05-Connector_Generic J7
 U 1 1 60A730FF
 P 7370 2005
 F 0 "J7" H 7435 2300 50  0000 L CNN
@@ -3088,7 +3088,7 @@ F 3 "~" H 7370 2005 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR0121
+L corne-cherry-rescue:VDD-power #PWR0121
 U 1 1 60A7ED38
 P 7005 1715
 F 0 "#PWR0121" H 7005 1565 50  0001 C CNN
@@ -3103,7 +3103,7 @@ Wire Wire Line
 Wire Wire Line
 	7005 1805 7005 1715
 $Comp
-L power:GNDA #PWR0122
+L corne-cherry-rescue:GNDA-power #PWR0122
 U 1 1 60A9E11E
 P 7010 2255
 F 0 "#PWR0122" H 7010 2005 50  0001 C CNN
@@ -3129,7 +3129,7 @@ uglow
 Text GLabel 9925 8295 2    60   Input ~ 0
 uglow_r
 $Comp
-L power:VCC #PWR0125
+L corne-cherry-rescue:VCC-power #PWR0125
 U 1 1 6100B6CC
 P 15035 9480
 F 0 "#PWR0125" H 15035 9330 50  0001 C CNN
@@ -3150,7 +3150,7 @@ Wire Wire Line
 Wire Wire Line
 	12690 9585 13680 9585
 $Comp
-L power:VCC #PWR0124
+L corne-cherry-rescue:VCC-power #PWR0124
 U 1 1 60FEAFF3
 P 14875 8195
 F 0 "#PWR0124" H 14875 8045 50  0001 C CNN
@@ -3171,7 +3171,7 @@ Wire Wire Line
 Wire Wire Line
 	12690 8265 13680 8265
 $Comp
-L power:GND #PWR0123
+L corne-cherry-rescue:GND-power #PWR0123
 U 1 1 60F413B7
 P 15025 9050
 F 0 "#PWR0123" H 15025 8800 50  0001 C CNN
@@ -3209,7 +3209,7 @@ Wire Wire Line
 Wire Wire Line
 	13980 9285 14290 9285
 $Comp
-L LED:WS2812B D44
+L corne-cherry-rescue:WS2812B-LED D44
 U 1 1 60DC8CBA
 P 12690 9285
 F 0 "D44" H 13034 9331 50  0000 L CNN
@@ -3222,7 +3222,7 @@ $EndComp
 Wire Wire Line
 	12990 9285 13380 9285
 $Comp
-L LED:WS2812B D46
+L corne-cherry-rescue:WS2812B-LED D46
 U 1 1 60DC8CAF
 P 13680 9285
 F 0 "D46" H 14024 9331 50  0000 L CNN
@@ -3233,7 +3233,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13780 8910 50  0001
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:WS2812B D48
+L corne-cherry-rescue:WS2812B-LED D48
 U 1 1 60DC8763
 P 14590 9285
 F 0 "D48" H 14934 9331 50  0000 L CNN
@@ -3246,7 +3246,7 @@ $EndComp
 Wire Wire Line
 	13980 8565 14290 8565
 $Comp
-L LED:WS2812B D47
+L corne-cherry-rescue:WS2812B-LED D47
 U 1 1 60DAA5B2
 P 14590 8565
 F 0 "D47" H 14934 8611 50  0000 L CNN
@@ -3259,7 +3259,7 @@ $EndComp
 Wire Wire Line
 	12990 8565 13380 8565
 $Comp
-L LED:WS2812B D45
+L corne-cherry-rescue:WS2812B-LED D45
 U 1 1 60D8F5FE
 P 13680 8565
 F 0 "D45" H 14024 8611 50  0000 L CNN
@@ -3270,7 +3270,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13780 8190 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D43
+L corne-cherry-rescue:WS2812B-LED D43
 U 1 1 60D8D511
 P 12690 8565
 F 0 "D43" H 13034 8611 50  0000 L CNN
@@ -3326,7 +3326,7 @@ Wire Wire Line
 Wire Wire Line
 	14020 7605 14330 7605
 $Comp
-L LED:WS2812B D50
+L corne-cherry-rescue:WS2812B-LED D50
 U 1 1 60C6F186
 P 12730 7605
 F 0 "D50" H 13074 7651 50  0000 L CNN
@@ -3339,7 +3339,7 @@ $EndComp
 Wire Wire Line
 	13030 7605 13420 7605
 $Comp
-L LED:WS2812B D52
+L corne-cherry-rescue:WS2812B-LED D52
 U 1 1 60C6F191
 P 13720 7605
 F 0 "D52" H 14064 7651 50  0000 L CNN
@@ -3350,7 +3350,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13820 7230 50  0001
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED:WS2812B D54
+L corne-cherry-rescue:WS2812B-LED D54
 U 1 1 60C6F19B
 P 14630 7605
 F 0 "D54" H 14974 7651 50  0000 L CNN
@@ -3363,7 +3363,7 @@ $EndComp
 Wire Wire Line
 	14020 6885 14330 6885
 $Comp
-L LED:WS2812B D53
+L corne-cherry-rescue:WS2812B-LED D53
 U 1 1 60C6F1A6
 P 14630 6885
 F 0 "D53" H 14974 6931 50  0000 L CNN
@@ -3376,7 +3376,7 @@ $EndComp
 Wire Wire Line
 	13030 6885 13420 6885
 $Comp
-L LED:WS2812B D51
+L corne-cherry-rescue:WS2812B-LED D51
 U 1 1 60C6F1B1
 P 13720 6885
 F 0 "D51" H 14064 6931 50  0000 L CNN
@@ -3387,7 +3387,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13820 6510 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D49
+L corne-cherry-rescue:WS2812B-LED D49
 U 1 1 60C6F1BB
 P 12730 6885
 F 0 "D49" H 13074 6931 50  0000 L CNN
@@ -3398,7 +3398,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12830 6510 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0126
+L corne-cherry-rescue:GNDA-power #PWR0126
 U 1 1 60CCA303
 P 15065 7370
 F 0 "#PWR0126" H 15065 7120 50  0001 C CNN
@@ -3409,7 +3409,7 @@ F 3 "" H 15065 7370 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR0127
+L corne-cherry-rescue:VDD-power #PWR0127
 U 1 1 60D0D065
 P 15075 7800
 F 0 "#PWR0127" H 15075 7650 50  0001 C CNN
@@ -3420,7 +3420,7 @@ F 3 "" H 15075 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR0128
+L corne-cherry-rescue:VDD-power #PWR0128
 U 1 1 60D36942
 P 14915 6515
 F 0 "#PWR0128" H 14915 6365 50  0001 C CNN
@@ -3447,7 +3447,7 @@ Underglow\n
 Text GLabel 3680 2940 3    47   Input ~ 0
 data_r
 $Comp
-L power:VDD #PWR0129
+L corne-cherry-rescue:VDD-power #PWR0129
 U 1 1 60C1BEED
 P 3680 2640
 F 0 "#PWR0129" H 3680 2490 50  0001 C CNN
@@ -3460,7 +3460,7 @@ $EndComp
 Wire Wire Line
 	3680 2740 3680 2640
 $Comp
-L Device:R_Small R6
+L corne-cherry-rescue:R_Small-Device R6
 U 1 1 60C1BED6
 P 3680 2840
 F 0 "R6" H 3739 2886 50  0000 L CNN
@@ -3473,7 +3473,7 @@ $EndComp
 Wire Notes Line
 	7555 3320 2115 3320
 $Comp
-L Device:R_Small R5
+L corne-cherry-rescue:R_Small-Device R5
 U 1 1 60C1BA80
 P 3285 2835
 F 0 "R5" H 3344 2881 50  0000 L CNN
@@ -3488,7 +3488,7 @@ data
 Wire Wire Line
 	3285 2735 3285 2635
 $Comp
-L power:VCC #PWR0130
+L corne-cherry-rescue:VCC-power #PWR0130
 U 1 1 60C1BEE3
 P 3285 2635
 F 0 "#PWR0130" H 3285 2485 50  0001 C CNN
