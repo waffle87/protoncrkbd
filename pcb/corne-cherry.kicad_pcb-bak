@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 656)
-    (tracks 2567)
+    (tracks 2563)
     (zones 0)
     (modules 193)
     (nets 148)
@@ -24,7 +24,7 @@
     (33 F.Adhes user)
     (34 B.Paste user)
     (35 F.Paste user)
-    (36 B.SilkS user)
+    (36 B.SilkS user hide)
     (37 F.SilkS user hide)
     (38 B.Mask user)
     (39 F.Mask user)
@@ -41,7 +41,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.25)
     (user_trace_width 0.2032)
     (user_trace_width 0.254)
     (user_trace_width 0.5)
@@ -945,7 +945,7 @@
   )
 
   (module silks:dn_f (layer F.Cu) (tedit 60A48E67) (tstamp 60B80822)
-    (at 77.2575 49.9675)
+    (at 77.3875 52.94)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -1002,7 +1002,7 @@
   )
 
   (module silks:dn_f (layer F.Cu) (tedit 60A48E67) (tstamp 60B807EF)
-    (at 219.33875 49.9675)
+    (at 219.9675 53.11)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -15050,10 +15050,6 @@
   (segment (start 164.49811 64.52601) (end 165.7975 65.8254) (width 0.508) (layer B.Cu) (net 77))
   (segment (start 155.55851 64.52601) (end 164.49811 64.52601) (width 0.508) (layer B.Cu) (net 77))
   (segment (start 154.3045 63.272) (end 155.55851 64.52601) (width 0.508) (layer B.Cu) (net 77))
-  (segment (start 276.6145 44.969213) (end 276.6145 43.555) (width 0.508) (layer F.Cu) (net 77))
-  (segment (start 273.714212 47.869501) (end 276.6145 44.969213) (width 0.508) (layer F.Cu) (net 77))
-  (segment (start 261.049401 47.869501) (end 273.714212 47.869501) (width 0.508) (layer F.Cu) (net 77))
-  (segment (start 257.8769 44.697) (end 261.049401 47.869501) (width 0.508) (layer F.Cu) (net 77))
   (segment (start 207.24454 79.74138) (end 207.2547 79.75154) (width 0.508) (layer B.Cu) (net 77))
   (segment (start 207.24454 78.7838) (end 207.24454 79.74138) (width 0.508) (layer B.Cu) (net 77))
   (segment (start 207.2547 79.75154) (end 207.2547 81.146) (width 0.508) (layer B.Cu) (net 77))
