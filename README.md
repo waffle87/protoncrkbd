@@ -1,4 +1,5 @@
 ### proton-c compatible crkbd pcb
+![image](https://i.imgur.com/QYYASp8h.jpeg)
 ### info
 #### changes:
 * usart full duplex communication (t**rr**s cable required!)
@@ -6,6 +7,8 @@
 * add piezo buzzer (AST1109MLTRQ)
 * add two rotary encoder positions
 * add pimoroni trackball support (footprint thanks to [MangoIV](https://github.com/MangoIV))
+
+firmware can be found at: [v1 (pre-2022)](https://github.com/waffle87/qmk.me/tree/e55177fb5b88a09c8d9882a33c33c5bfbc19e1fb/keymaps/crkbd) [v2 (current)](https://github.com/waffle87/qmk.me/tree/master/keymaps/crkbd)
 (latest-commit pcbs are currently untested)
 
 #### parts 
